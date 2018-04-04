@@ -3,7 +3,6 @@ function get(url, fn) {
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
             if (xhr.status === 200 || !xhr.status && xhr.responseText.length) {
-                console.log(xhr.responseText);
                 fn(xhr.responseText);
             }
         }
@@ -14,4 +13,8 @@ function get(url, fn) {
     }
     xhr.send(null);
 }
-get("./config.json");
+get("./config.json", function(data) {
+    console.log('data', data);
+    var data = JSON.parse(data);
+    console.log(data);
+});
