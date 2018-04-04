@@ -1,5 +1,3 @@
----
-
 layout: default
 ---------------
 
@@ -62,8 +60,6 @@ end
 | ok           | good `zoute` drop | yumm  |
 
 ### There's a horizontal rule below this.
-
----
 
 ### Here is an unordered list:
 
