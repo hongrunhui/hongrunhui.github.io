@@ -16,5 +16,12 @@ function get(url, fn) {
 get("./config.json", function(data) {
     console.log('data', data);
     var data = JSON.parse(data);
+    var pages = data.pages;
+    var basePagesDir = data.basePagesDir;
+
     console.log(data);
 });
+function each(parentNode, template, data) {
+    var f = document.createDocumentFragment();
+
+}
