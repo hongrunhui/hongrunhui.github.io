@@ -1,7 +1,7 @@
 function get(url, fn) {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
-        if (xhr.readystate === 4) {
+        if (xhr.readyState === 4) {
             if (xhr.status === 200 || !xhr.status && xhr.responseText.length) {
                 console.log(xhr.responseText);
                 fn(xhr.responseText);
