@@ -2625,6 +2625,19 @@ THE SOFTWARE.
     bottom: 20px;
     z-index: 1111111111111111111111;
 }
+.fresh-button {
+    width: 90px;
+    height: 40px;
+    background: #43A992;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+    right: 120px;
+    bottom: 20px;
+    z-index: 1111111111111111111111;
+}
 .iframeClass {
     width: 50%;
     height: 50%;
@@ -2669,7 +2682,9 @@ THE SOFTWARE.
     width: 30000px;
 }
 #preCode {
-    z-index: 1000000000;
+    position: fixed;
+    left: 10px;
+    top: 470px;
 }
 
 .errorHighlight {
