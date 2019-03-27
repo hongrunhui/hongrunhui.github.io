@@ -15,21 +15,10 @@
 
             </todo>
         </div>
-        <script type="riot/tag">
-            <todo>
-                <h3 each={item, i in titles}>11{ item }</h3>
-                this.title = '222';
-                this.titles = ['b', 'a'];
-                this.on('mount', function() {
-                    console.log('mount');
-                });
-                this.on('update', function cccc() {
-                    console.log(this);
-                });
-            </todo>
+        <script src="./tag/todo.tag" type="riot/tag">
         </script>
         <script>
-            var __INDEX__ = 1;
+            window.__INDEX__ = 1;
             riot.mount('*');
         </script>
         <script src="../necoo-inject.js"></script>

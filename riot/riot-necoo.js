@@ -243,7 +243,7 @@
 
   
   RE_BOOL_ATTRS = /^(?:disabled|checked|readonly|required|allowfullscreen|auto(?:focus|play)|compact|controls|default|formnovalidate|hidden|ismap|itemscope|loop|multiple|muted|no(?:resize|shade|validate|wrap)?|open|reversed|seamless|selected|sortable|truespeed|typemustmatch)$/,
-  IE_VERSION = (WIN && WIN.document || {}).documentMode | 0;_ProcessVariable_({__TAGS_CACHE: __TAGS_CACHE,__TAG_IMPL: __TAG_IMPL,YIELD_TAG: YIELD_TAG,GLOBAL_MIXIN: GLOBAL_MIXIN,ATTRS_PREFIX: ATTRS_PREFIX,REF_DIRECTIVES: REF_DIRECTIVES,IS_DIRECTIVE: IS_DIRECTIVE,CONDITIONAL_DIRECTIVE: CONDITIONAL_DIRECTIVE,LOOP_DIRECTIVE: LOOP_DIRECTIVE,LOOP_NO_REORDER_DIRECTIVE: LOOP_NO_REORDER_DIRECTIVE,SHOW_DIRECTIVE: SHOW_DIRECTIVE,HIDE_DIRECTIVE: HIDE_DIRECTIVE,KEY_DIRECTIVE: KEY_DIRECTIVE,RIOT_EVENTS_KEY: RIOT_EVENTS_KEY,T_STRING: T_STRING,T_OBJECT: T_OBJECT,T_UNDEF: T_UNDEF,T_FUNCTION: T_FUNCTION,XLINK_NS: XLINK_NS,SVG_NS: SVG_NS,XLINK_REGEX: XLINK_REGEX,WIN: WIN,RE_SPECIAL_TAGS: RE_SPECIAL_TAGS,RE_SPECIAL_TAGS_NO_OPTION: RE_SPECIAL_TAGS_NO_OPTION,RE_EVENTS_PREFIX: RE_EVENTS_PREFIX,RE_HTML_ATTRS: RE_HTML_ATTRS,CASE_SENSITIVE_ATTRIBUTES: CASE_SENSITIVE_ATTRIBUTES,RE_BOOL_ATTRS: RE_BOOL_ATTRS,IE_VERSION: IE_VERSION});
+  IE_VERSION = (WIN && WIN.document || {}).documentMode | 0;_ProcessVariable_({__TAGS_CACHE: __TAGS_CACHE,__TAG_IMPL: __TAG_IMPL,YIELD_TAG: YIELD_TAG,GLOBAL_MIXIN: GLOBAL_MIXIN,ATTRS_PREFIX: ATTRS_PREFIX,REF_DIRECTIVES: REF_DIRECTIVES,IS_DIRECTIVE: IS_DIRECTIVE,CONDITIONAL_DIRECTIVE: CONDITIONAL_DIRECTIVE,LOOP_DIRECTIVE: LOOP_DIRECTIVE,LOOP_NO_REORDER_DIRECTIVE: LOOP_NO_REORDER_DIRECTIVE,SHOW_DIRECTIVE: SHOW_DIRECTIVE,HIDE_DIRECTIVE: HIDE_DIRECTIVE,KEY_DIRECTIVE: KEY_DIRECTIVE,RIOT_EVENTS_KEY: RIOT_EVENTS_KEY,T_STRING: T_STRING,T_OBJECT: T_OBJECT,T_UNDEF: T_UNDEF,T_FUNCTION: T_FUNCTION,XLINK_NS: XLINK_NS,SVG_NS: SVG_NS,XLINK_REGEX: XLINK_REGEX,WIN: WIN,RE_SPECIAL_TAGS: RE_SPECIAL_TAGS,RE_SPECIAL_TAGS_NO_OPTION: RE_SPECIAL_TAGS_NO_OPTION,RE_EVENTS_PREFIX: RE_EVENTS_PREFIX,RE_HTML_ATTRS: RE_HTML_ATTRS,CASE_SENSITIVE_ATTRIBUTES: CASE_SENSITIVE_ATTRIBUTES,RE_BOOL_ATTRS: RE_BOOL_ATTRS,IE_VERSION: IE_VERSION}, __O__);
 
   
   function makeElement(name) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -252,7 +252,7 @@
 
   
   function setAttribute(dom, name, val) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var xlink = XLINK_REGEX.exec(name);_ProcessVariable_({xlink: xlink});
+    var xlink = XLINK_REGEX.exec(name);_ProcessVariable_({xlink: xlink}, __O__);
     if (xlink && xlink[1]) {
       dom.setAttributeNS(XLINK_NS, xlink[1], val);
     } else {
@@ -260,14 +260,14 @@
     }
   }
 
-  var styleNode;_ProcessVariable_({styleNode: styleNode});
-  var cssTextProp;_ProcessVariable_({cssTextProp: cssTextProp});
-  var byName = {};_ProcessVariable_({byName: byName});
-  var needsInject = false;_ProcessVariable_({needsInject: needsInject});
+  var styleNode;_ProcessVariable_({styleNode: styleNode}, __O__);
+  var cssTextProp;_ProcessVariable_({cssTextProp: cssTextProp}, __O__);
+  var byName = {};_ProcessVariable_({byName: byName}, __O__);
+  var needsInject = false;_ProcessVariable_({needsInject: needsInject}, __O__);
   if (WIN) {
     styleNode = function _anonymous_3() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-      var newNode = makeElement('style');_ProcessVariable_({newNode: newNode});
-      var userNode = $('style[type=riot]');_ProcessVariable_({userNode: userNode});
+      var newNode = makeElement('style');_ProcessVariable_({newNode: newNode}, __O__);
+      var userNode = $('style[type=riot]');_ProcessVariable_({userNode: userNode}, __O__);
 
       setAttribute(newNode, 'type', 'text/css');
       
@@ -319,7 +319,7 @@
     
 
     
-  };_ProcessVariable_({styleManager: styleManager});var skipRegex = function _anonymous_5() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
+  };_ProcessVariable_({styleManager: styleManager}, __O__);var skipRegex = function _anonymous_5() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
 
     var beforeReChars = '[{(,;:?=|&!^~>%*/';
 
@@ -378,7 +378,7 @@
     }
 
     return _ProcessReturn_(_skipRegex, __O__);
-  }();_ProcessVariable_({skipRegex: skipRegex});
+  }();_ProcessVariable_({skipRegex: skipRegex}, __O__);
 
   
 
@@ -600,7 +600,7 @@
     _brackets.S_QBLOCK2 = S_QBLOCK2;
 
     return _ProcessReturn_(_brackets, __O__);
-  }();_ProcessVariable_({brackets: brackets});
+  }();_ProcessVariable_({brackets: brackets}, __O__);
 
   
 
@@ -791,7 +791,7 @@
     _tmpl.version = brackets.version = 'v3.0.8';
 
     return _ProcessReturn_(_tmpl, __O__);
-  }();_ProcessVariable_({tmpl: tmpl});
+  }();_ProcessVariable_({tmpl: tmpl}, __O__);
 
   
   var observable = function _anonymous_16(el) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -890,7 +890,7 @@
     });
 
     return _ProcessReturn_(el, __O__);
-  };_ProcessVariable_({observable: observable});
+  };_ProcessVariable_({observable: observable}, __O__);
 
   
   function getPropDescriptor(o, k) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -904,16 +904,16 @@
 
   
   function isWritable(obj, key) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var descriptor = getPropDescriptor(obj, key);_ProcessVariable_({descriptor: descriptor});
+    var descriptor = getPropDescriptor(obj, key);_ProcessVariable_({descriptor: descriptor}, __O__);
     return _ProcessReturn_(isUndefined(obj[key]) || descriptor && descriptor.writable, __O__);
   }
 
   
   function extend(src) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var obj;_ProcessVariable_({obj: obj});
-    var i = 1;_ProcessVariable_({i: i});
-    var args = arguments;_ProcessVariable_({args: args});
-    var l = args.length;_ProcessVariable_({l: l});
+    var obj;_ProcessVariable_({obj: obj}, __O__);
+    var i = 1;_ProcessVariable_({i: i}, __O__);
+    var args = arguments;_ProcessVariable_({args: args}, __O__);
+    var l = args.length;_ProcessVariable_({l: l}, __O__);
 
     for (; i < l; i++) {
       if (obj = args[i]) {
@@ -936,7 +936,7 @@
     skipAnonymousTags: true,
     keepValueAttributes: false,
     autoUpdate: true
-  });_ProcessVariable_({settings: settings});
+  });_ProcessVariable_({settings: settings}, __O__);
 
   
   function $$(selector, ctx) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -969,7 +969,7 @@
   
   function setInnerHTML(container, html, isSvg) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     if (isSvg) {
-      var node = container.ownerDocument.importNode(new DOMParser().parseFromString("<svg xmlns=\"" + SVG_NS + "\">" + html + "</svg>", 'application/xml').documentElement, true);_ProcessVariable_({node: node});
+      var node = container.ownerDocument.importNode(new DOMParser().parseFromString("<svg xmlns=\"" + SVG_NS + "\">" + html + "</svg>", 'application/xml').documentElement, true);_ProcessVariable_({node: node}, __O__);
 
       container.appendChild(node);
     } else {
@@ -982,7 +982,7 @@
     if (!html) {
       return _ProcessReturn_(undefined, __O__);
     }
-    var m;_ProcessVariable_({m: m});
+    var m;_ProcessVariable_({m: m}, __O__);
     while (m = RE_HTML_ATTRS.exec(html)) {
       fn(m[1].toLowerCase(), m[2] || m[3] || m[4]);
     }
@@ -1008,8 +1008,8 @@
   
   function walkNodes(dom, fn, context) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     if (dom) {
-      var res = fn(dom, context);_ProcessVariable_({res: res});
-      var next;_ProcessVariable_({next: next});
+      var res = fn(dom, context);_ProcessVariable_({res: res}, __O__);
+      var next;_ProcessVariable_({next: next}, __O__);
       if (res === false) {
         return _ProcessReturn_(undefined, __O__);
       }
@@ -1039,7 +1039,7 @@
     safeInsert: safeInsert,
     styleObjectToString: styleObjectToString,
     walkNodes: walkNodes
-  });_ProcessVariable_({dom: dom});
+  });_ProcessVariable_({dom: dom}, __O__);
 
   
   function isNil(value) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -1063,7 +1063,7 @@
 
   
   function isSvg(el) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var owner = el.ownerSVGElement;_ProcessVariable_({owner: owner});
+    var owner = el.ownerSVGElement;_ProcessVariable_({owner: owner}, __O__);
     return _ProcessReturn_(!!owner || owner === null, __O__);
   }
 
@@ -1093,7 +1093,7 @@
     isNil: isNil,
     isString: isString,
     isUndefined: isUndefined
-  });_ProcessVariable_({check: check});
+  });_ProcessVariable_({check: check}, __O__);
 
   
   function contains(array, item) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -1102,8 +1102,8 @@
 
   
   function each(list, fn) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var len = list ? list.length : 0;_ProcessVariable_({len: len});
-    var i = 0;_ProcessVariable_({i: i});
+    var len = list ? list.length : 0;_ProcessVariable_({len: len}, __O__);
+    var i = 0;_ProcessVariable_({i: i}, __O__);
     for (; i < len; i++) {
       fn(list[i], i);
     }
@@ -1119,7 +1119,7 @@
   var uid = function uid() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     var i = -1;
     return _ProcessReturn_(function _anonymous_22() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments); return ++i; }, __O__);
-  }();_ProcessVariable_({uid: uid});
+  }();_ProcessVariable_({uid: uid}, __O__);
 
   
   function define(el, key, value, options) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -1157,13 +1157,13 @@
     extend: extend,
     toCamel: toCamel,
     warn: warn
-  });_ProcessVariable_({misc: misc});
+  });_ProcessVariable_({misc: misc}, __O__);
 
   
   function arrayishAdd(obj, key, value, ensureArray, index) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var dest = obj[key];_ProcessVariable_({dest: dest});
-    var isArr = isArray(dest);_ProcessVariable_({isArr: isArr});
-    var hasIndex = !isUndefined(index);_ProcessVariable_({hasIndex: hasIndex});
+    var dest = obj[key];_ProcessVariable_({dest: dest}, __O__);
+    var isArr = isArray(dest);_ProcessVariable_({isArr: isArr}, __O__);
+    var hasIndex = !isUndefined(index);_ProcessVariable_({hasIndex: hasIndex}, __O__);
 
     if (dest && dest === value) {
       return _ProcessReturn_(undefined, __O__);
@@ -1175,7 +1175,7 @@
     }
     else {
         if (isArr) {
-          var oldIndex = dest.indexOf(value);_ProcessVariable_({oldIndex: oldIndex});
+          var oldIndex = dest.indexOf(value);_ProcessVariable_({oldIndex: oldIndex}, __O__);
           if (oldIndex === index) {
             return _ProcessReturn_(undefined, __O__);
           }
@@ -1200,8 +1200,8 @@
 
   
   function getName(dom, skipDataIs) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var child = get(dom);_ProcessVariable_({child: child});
-    var namedTag = !skipDataIs && getAttribute(dom, IS_DIRECTIVE);_ProcessVariable_({namedTag: namedTag});
+    var child = get(dom);_ProcessVariable_({child: child}, __O__);
+    var namedTag = !skipDataIs && getAttribute(dom, IS_DIRECTIVE);_ProcessVariable_({namedTag: namedTag}, __O__);
     return _ProcessReturn_(namedTag && !tmpl.hasExpr(namedTag) ? namedTag : child ? child.name : dom.tagName.toLowerCase(), __O__);
   }
 
@@ -1222,20 +1222,20 @@
       rootEls = { tr: 'tbody', th: 'tr', td: 'tr', col: 'colgroup' },
       tblTags = IE_VERSION && IE_VERSION < 10 ? RE_SPECIAL_TAGS : RE_SPECIAL_TAGS_NO_OPTION,
       GENERIC = 'div',
-      SVG = 'svg';_ProcessVariable_({reHasYield: reHasYield,reYieldAll: reYieldAll,reYieldSrc: reYieldSrc,reYieldDest: reYieldDest,rootEls: rootEls,tblTags: tblTags,GENERIC: GENERIC,SVG: SVG});
+      SVG = 'svg';_ProcessVariable_({reHasYield: reHasYield,reYieldAll: reYieldAll,reYieldSrc: reYieldSrc,reYieldDest: reYieldDest,rootEls: rootEls,tblTags: tblTags,GENERIC: GENERIC,SVG: SVG}, __O__);
 
   
   function specialTags(el, tmpl, tagName) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
 
     var select = tagName[0] === 'o',
-        parent = select ? 'select>' : 'table>';_ProcessVariable_({select: select,parent: parent});
+        parent = select ? 'select>' : 'table>';_ProcessVariable_({select: select,parent: parent}, __O__);
     el.innerHTML = '<' + parent + tmpl.trim() + '</' + parent;
     parent = el.firstChild;
     
     if (select) {
       parent.selectedIndex = -1;
     } else {
-      var tname = rootEls[tagName];_ProcessVariable_({tname: tname});
+      var tname = rootEls[tagName];_ProcessVariable_({tname: tname}, __O__);
       if (tname && parent.childElementCount === 1) {
         parent = $(tname, parent);
       }
@@ -1248,7 +1248,7 @@
     if (!reHasYield.test(tmpl)) {
       return _ProcessReturn_(tmpl, __O__);
     }
-    var src = {};_ProcessVariable_({src: src});
+    var src = {};_ProcessVariable_({src: src}, __O__);
 
     html = html && html.replace(reYieldSrc, function _anonymous_24(_, ref, text) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       src[ref] = src[ref] || text;
@@ -1264,9 +1264,9 @@
 
   
   function mkdom(tmpl, html, isSvg) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var match = tmpl && tmpl.match(/^\s*<([-\w]+)/);_ProcessVariable_({match: match});
-    var tagName = match && match[1].toLowerCase();_ProcessVariable_({tagName: tagName});
-    var el = makeElement(isSvg ? SVG : GENERIC);_ProcessVariable_({el: el});
+    var match = tmpl && tmpl.match(/^\s*<([-\w]+)/);_ProcessVariable_({match: match}, __O__);
+    var tagName = match && match[1].toLowerCase();_ProcessVariable_({tagName: tagName}, __O__);
+    var el = makeElement(isSvg ? SVG : GENERIC);_ProcessVariable_({el: el}, __O__);
     tmpl = replaceYield(tmpl, html);
 
     
@@ -1279,7 +1279,7 @@
     return _ProcessReturn_(el, __O__);
   }
 
-  var EVENT_ATTR_RE = /^on/;_ProcessVariable_({EVENT_ATTR_RE: EVENT_ATTR_RE});
+  var EVENT_ATTR_RE = /^on/;_ProcessVariable_({EVENT_ATTR_RE: EVENT_ATTR_RE}, __O__);
 
   
   function isEventAttribute(attribute) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -1288,7 +1288,7 @@
 
   
   function getImmediateCustomParent(tag) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var ptag = tag;_ProcessVariable_({ptag: ptag});
+    var ptag = tag;_ProcessVariable_({ptag: ptag}, __O__);
     while (ptag.__.isAnonymous) {
       if (!ptag.parent) {
         break;
@@ -1300,8 +1300,8 @@
 
   
   function handleEvent(dom, handler, e) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var ptag = this.__.parent;_ProcessVariable_({ptag: ptag});
-    var item = this.__.item;_ProcessVariable_({item: item});
+    var ptag = this.__.parent;_ProcessVariable_({ptag: ptag}, __O__);
+    var item = this.__.item;_ProcessVariable_({item: item}, __O__);
 
     if (!item) {
       while (ptag && !item) {
@@ -1330,7 +1330,7 @@
     }
 
     if (!e.preventUpdate) {
-      var p = getImmediateCustomParent(this);_ProcessVariable_({p: p});
+      var p = getImmediateCustomParent(this);_ProcessVariable_({p: p}, __O__);
       if (p.isMounted) {
         p.update();
       }
@@ -1339,8 +1339,8 @@
 
   
   function setEventHandler(name, handler, dom, tag) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var eventName;_ProcessVariable_({eventName: eventName});
-    var cb = handleEvent.bind(tag, dom, handler);_ProcessVariable_({cb: cb});
+    var eventName;_ProcessVariable_({eventName: eventName}, __O__);
+    var cb = handleEvent.bind(tag, dom, handler);_ProcessVariable_({cb: cb}, __O__);
     dom[name] = null;
     eventName = name.replace(RE_EVENTS_PREFIX, '');
     if (!contains(tag.__.listeners, dom)) {
@@ -1359,9 +1359,9 @@
 
   
   function initChild(child, opts, innerHTML, parent) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var tag = createTag(child, opts, innerHTML);_ProcessVariable_({tag: tag});
-    var tagName = opts.tagName || getName(opts.root, true);_ProcessVariable_({tagName: tagName});
-    var ptag = getImmediateCustomParent(parent);_ProcessVariable_({ptag: ptag});
+    var tag = createTag(child, opts, innerHTML);_ProcessVariable_({tag: tag}, __O__);
+    var tagName = opts.tagName || getName(opts.root, true);_ProcessVariable_({tagName: tagName}, __O__);
+    var ptag = getImmediateCustomParent(parent);_ProcessVariable_({ptag: ptag}, __O__);
     define(tag, 'parent', ptag);
     tag.__.parent = parent;
     arrayishAdd(ptag.tags, tagName, tag);
@@ -1375,7 +1375,7 @@
   
   function arrayishRemove(obj, key, value, ensureArray) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     if (isArray(obj[key])) {
-      var index = obj[key].indexOf(value);_ProcessVariable_({index: index});
+      var index = obj[key].indexOf(value);_ProcessVariable_({index: index}, __O__);
       if (index !== -1) {
         obj[key].splice(index, 1);
       }
@@ -1391,13 +1391,13 @@
 
   
   function makeVirtual(src, target) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var this$1 = this;_ProcessVariable_({this$1: this$1});
+    var this$1 = this;_ProcessVariable_({this$1: this$1}, __O__);
 
-    var head = createDOMPlaceholder();_ProcessVariable_({head: head});
-    var tail = createDOMPlaceholder();_ProcessVariable_({tail: tail});
-    var frag = createFragment();_ProcessVariable_({frag: frag});
-    var sib;_ProcessVariable_({sib: sib});
-    var el;_ProcessVariable_({el: el});
+    var head = createDOMPlaceholder();_ProcessVariable_({head: head}, __O__);
+    var tail = createDOMPlaceholder();_ProcessVariable_({tail: tail}, __O__);
+    var frag = createFragment();_ProcessVariable_({frag: frag}, __O__);
+    var sib;_ProcessVariable_({sib: sib}, __O__);
+    var el;_ProcessVariable_({el: el}, __O__);
 
     this.root.insertBefore(head, this.root.firstChild);
     this.root.appendChild(tail);
@@ -1424,19 +1424,19 @@
     if (!ref.parentNode) {
       return _ProcessReturn_(undefined, __O__);
     }
-    var frag = createFragment();_ProcessVariable_({frag: frag});
+    var frag = createFragment();_ProcessVariable_({frag: frag}, __O__);
     makeVirtual.call(tag, frag);
     ref.parentNode.replaceChild(frag, ref);
   }
 
   
   function updateDataIs(expr, parent, tagName) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var tag = expr.tag || expr.dom._tag;_ProcessVariable_({tag: tag});
-    var ref;_ProcessVariable_({ref: ref});
+    var tag = expr.tag || expr.dom._tag;_ProcessVariable_({tag: tag}, __O__);
+    var ref;_ProcessVariable_({ref: ref}, __O__);
 
-    var ref$1 = tag ? tag.__ : {};_ProcessVariable_({ref$1: ref$1});
-    var head = ref$1.head;_ProcessVariable_({head: head});
-    var isVirtual = expr.dom.tagName === 'VIRTUAL';_ProcessVariable_({isVirtual: isVirtual});
+    var ref$1 = tag ? tag.__ : {};_ProcessVariable_({ref$1: ref$1}, __O__);
+    var head = ref$1.head;_ProcessVariable_({head: head}, __O__);
+    var isVirtual = expr.dom.tagName === 'VIRTUAL';_ProcessVariable_({isVirtual: isVirtual}, __O__);
 
     if (tag && expr.tagName === tagName) {
       tag.update();
@@ -1474,7 +1474,7 @@
       makeReplaceVirtual(tag, ref || tag.root);
     }
     parent.__.onUnmount = function _anonymous_28() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-      var delName = tag.opts.dataIs;_ProcessVariable_({delName: delName});
+      var delName = tag.opts.dataIs;_ProcessVariable_({delName: delName}, __O__);
       arrayishRemove(tag.parent.tags, delName, tag);
       arrayishRemove(tag.__.parent.tags, delName, tag);
       tag.unmount();
@@ -1499,19 +1499,19 @@
       return _ProcessReturn_(undefined, __O__);
     }
 
-    var dom = expr.dom;_ProcessVariable_({dom: dom});
-    var attrName = normalizeAttrName(expr.attr);_ProcessVariable_({attrName: attrName});
-    var isToggle = contains([SHOW_DIRECTIVE, HIDE_DIRECTIVE], attrName);_ProcessVariable_({isToggle: isToggle});
-    var isVirtual = expr.root && expr.root.tagName === 'VIRTUAL';_ProcessVariable_({isVirtual: isVirtual});
-    var ref = this.__;_ProcessVariable_({ref: ref});
-    var isAnonymous = ref.isAnonymous;_ProcessVariable_({isAnonymous: isAnonymous});
-    var parent = dom && (expr.parent || dom.parentNode);_ProcessVariable_({parent: parent});
-    var keepValueAttributes = settings.keepValueAttributes;_ProcessVariable_({keepValueAttributes: keepValueAttributes});
-    var isStyleAttr = attrName === 'style';_ProcessVariable_({isStyleAttr: isStyleAttr});
-    var isClassAttr = attrName === 'class';_ProcessVariable_({isClassAttr: isClassAttr});
-    var isValueAttr = attrName === 'value';_ProcessVariable_({isValueAttr: isValueAttr});
+    var dom = expr.dom;_ProcessVariable_({dom: dom}, __O__);
+    var attrName = normalizeAttrName(expr.attr);_ProcessVariable_({attrName: attrName}, __O__);
+    var isToggle = contains([SHOW_DIRECTIVE, HIDE_DIRECTIVE], attrName);_ProcessVariable_({isToggle: isToggle}, __O__);
+    var isVirtual = expr.root && expr.root.tagName === 'VIRTUAL';_ProcessVariable_({isVirtual: isVirtual}, __O__);
+    var ref = this.__;_ProcessVariable_({ref: ref}, __O__);
+    var isAnonymous = ref.isAnonymous;_ProcessVariable_({isAnonymous: isAnonymous}, __O__);
+    var parent = dom && (expr.parent || dom.parentNode);_ProcessVariable_({parent: parent}, __O__);
+    var keepValueAttributes = settings.keepValueAttributes;_ProcessVariable_({keepValueAttributes: keepValueAttributes}, __O__);
+    var isStyleAttr = attrName === 'style';_ProcessVariable_({isStyleAttr: isStyleAttr}, __O__);
+    var isClassAttr = attrName === 'class';_ProcessVariable_({isClassAttr: isClassAttr}, __O__);
+    var isValueAttr = attrName === 'value';_ProcessVariable_({isValueAttr: isValueAttr}, __O__);
 
-    var value;_ProcessVariable_({value: value});
+    var value;_ProcessVariable_({value: value}, __O__);
     if (expr._riot_id) {
       if (expr.__.wasCreated) {
         expr.update();
@@ -1527,11 +1527,11 @@
       return _ProcessReturn_(expr.update(), __O__);
     }
 
-    var context = isToggle && !isAnonymous ? inheritParentProps.call(this) : this;_ProcessVariable_({context: context});
+    var context = isToggle && !isAnonymous ? inheritParentProps.call(this) : this;_ProcessVariable_({context: context}, __O__);
     value = tmpl(expr.expr, context);
 
-    var hasValue = !isBlank(value);_ProcessVariable_({hasValue: hasValue});
-    var isObj = isObject(value);_ProcessVariable_({isObj: isObj});
+    var hasValue = !isBlank(value);_ProcessVariable_({hasValue: hasValue}, __O__);
+    var isObj = isObject(value);_ProcessVariable_({isObj: isObj}, __O__);
     if (isObj) {
       if (isClassAttr) {
         value = tmpl(JSON.stringify(value), this);
@@ -1614,7 +1614,7 @@
     if (isLoop && isAnonymous) {
       return _ProcessReturn_(undefined, __O__);
     }
-    var ctx = isLoop ? inheritParentProps.call(this) : parent || this;_ProcessVariable_({ctx: ctx});
+    var ctx = isLoop ? inheritParentProps.call(this) : parent || this;_ProcessVariable_({ctx: ctx}, __O__);
 
     each(instAttrs, function _anonymous_29(attr) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       if (attr.expr) {
@@ -1626,9 +1626,9 @@
 
   
   function componentUpdate(tag, data, expressions) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var __ = tag.__;_ProcessVariable_({__: __});
-    var nextOpts = {};_ProcessVariable_({nextOpts: nextOpts});
-    var canTrigger = tag.isMounted && !__.skipAnonymous;_ProcessVariable_({canTrigger: canTrigger});
+    var __ = tag.__;_ProcessVariable_({__: __}, __O__);
+    var nextOpts = {};_ProcessVariable_({nextOpts: nextOpts}, __O__);
+    var canTrigger = tag.isMounted && !__.skipAnonymous;_ProcessVariable_({canTrigger: canTrigger}, __O__);
     if (__.isAnonymous && __.parent) {
       extend(tag, __.parent);
     }
@@ -1656,26 +1656,26 @@
   
   function query(tags1) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     if (!tags1) {
-      var keys = Object.keys(__TAG_IMPL);_ProcessVariable_({keys: keys});
+      var keys = Object.keys(__TAG_IMPL);_ProcessVariable_({keys: keys}, __O__);
       return _ProcessReturn_(keys + query(keys), __O__);
     }
 
     return _ProcessReturn_(tags1.filter(function _anonymous_30(t) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       return !/[^-\\w]/.test(t);
     }).reduce(function _anonymous_31(list, t) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-      var name = t.trim().toLowerCase();_ProcessVariable_({name: name});
+      var name = t.trim().toLowerCase();_ProcessVariable_({name: name}, __O__);
       return list + ",[" + IS_DIRECTIVE + "=\"" + name + "\"]";
     }, ''), __O__);
   }
 
   
   function Tag(el, opts) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var ref = this;_ProcessVariable_({ref: ref});
-    var name = ref.name;_ProcessVariable_({name: name});
-    var tmpl = ref.tmpl;_ProcessVariable_({tmpl: tmpl});
-    var css = ref.css;_ProcessVariable_({css: css});
-    var attrs = ref.attrs;_ProcessVariable_({attrs: attrs});
-    var onCreate = ref.onCreate;_ProcessVariable_({onCreate: onCreate});
+    var ref = this;_ProcessVariable_({ref: ref}, __O__);
+    var name = ref.name;_ProcessVariable_({name: name}, __O__);
+    var tmpl = ref.tmpl;_ProcessVariable_({tmpl: tmpl}, __O__);
+    var css = ref.css;_ProcessVariable_({css: css}, __O__);
+    var attrs = ref.attrs;_ProcessVariable_({attrs: attrs}, __O__);
+    var onCreate = ref.onCreate;_ProcessVariable_({onCreate: onCreate}, __O__);
     if (!__TAG_IMPL[name]) {
       tag(name, tmpl, css, attrs, onCreate);
       __TAG_IMPL[name].class = this.constructor;
@@ -1728,13 +1728,13 @@
 
   
   function mount(selector, tagName, opts) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var tags = [];_ProcessVariable_({tags: tags});
-    var elem, allTags;_ProcessVariable_({elem: elem,allTags: allTags});
+    var tags = [];_ProcessVariable_({tags: tags}, __O__);
+    var elem, allTags;_ProcessVariable_({elem: elem,allTags: allTags}, __O__);
 
     function pushTagsTo(root) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       if (root.tagName) {
         var riotTag = getAttribute(root, IS_DIRECTIVE),
-            tag;_ProcessVariable_({riotTag: riotTag,tag: tag});
+            tag;_ProcessVariable_({riotTag: riotTag,tag: tag}, __O__);
         if (tagName && riotTag !== tagName) {
           riotTag = tagName;
           setAttribute(root, IS_DIRECTIVE, tagName);
@@ -1769,7 +1769,7 @@
       if (elem.tagName) {
         elem = $$(tagName, elem);
       } else {
-        var nodeList = [];_ProcessVariable_({nodeList: nodeList});
+        var nodeList = [];_ProcessVariable_({nodeList: nodeList}, __O__);
 
         each(elem, function _anonymous_32(_el) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
           return _ProcessReturn_(nodeList.push($$(tagName, _el)), __O__);
@@ -1784,9 +1784,9 @@
 
     return _ProcessReturn_(tags, __O__);
   }
-  var mixins = {};_ProcessVariable_({mixins: mixins});
-  var globals = mixins[GLOBAL_MIXIN] = {};_ProcessVariable_({globals: globals});
-  var mixins_id = 0;_ProcessVariable_({mixins_id: mixins_id});
+  var mixins = {};_ProcessVariable_({mixins: mixins}, __O__);
+  var globals = mixins[GLOBAL_MIXIN] = {};_ProcessVariable_({globals: globals}, __O__);
+  var mixins_id = 0;_ProcessVariable_({mixins_id: mixins_id}, __O__);
 
   
   function mixin(name, mix, g) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -1795,7 +1795,7 @@
       return _ProcessReturn_(undefined, __O__);
     }
 
-    var store = g ? globals : mixins;_ProcessVariable_({store: store});
+    var store = g ? globals : mixins;_ProcessVariable_({store: store}, __O__);
     if (!mix) {
       if (isUndefined(store[name])) {
         throw new Error("Unregistered mixin: " + name);
@@ -1818,7 +1818,7 @@
     return _ProcessReturn_(delete __TAG_IMPL[name], __O__);
   }
 
-  var version = 'v3.13.1';_ProcessVariable_({version: version});
+  var version = 'v3.13.1';_ProcessVariable_({version: version}, __O__);
 
   var core = Object.freeze({
     Tag: Tag,
@@ -1829,19 +1829,19 @@
     update: update$1,
     unregister: unregister,
     version: version
-  });_ProcessVariable_({core: core});
+  });_ProcessVariable_({core: core}, __O__);
 
   
   function componentMixin(tag$$1) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     var mixins = [],
-        len = arguments.length - 1;_ProcessVariable_({mixins: mixins,len: len});
+        len = arguments.length - 1;_ProcessVariable_({mixins: mixins,len: len}, __O__);
     while (len-- > 0) mixins[len] = arguments[len + 1];
 
     each(mixins, function _anonymous_34(mix) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-      var instance;_ProcessVariable_({instance: instance});
-      var obj;_ProcessVariable_({obj: obj});
-      var props = [];_ProcessVariable_({props: props});
-      var propsBlacklist = ['init', '__proto__'];_ProcessVariable_({propsBlacklist: propsBlacklist});
+      var instance;_ProcessVariable_({instance: instance}, __O__);
+      var obj;_ProcessVariable_({obj: obj}, __O__);
+      var props = [];_ProcessVariable_({props: props}, __O__);
+      var propsBlacklist = ['init', '__proto__'];_ProcessVariable_({propsBlacklist: propsBlacklist}, __O__);
 
       mix = isString(mix) ? mixin(mix) : mix;
       if (isFunction(mix)) {
@@ -1850,14 +1850,14 @@
         instance = mix;
       }
 
-      var proto = Object.getPrototypeOf(instance);_ProcessVariable_({proto: proto});
+      var proto = Object.getPrototypeOf(instance);_ProcessVariable_({proto: proto}, __O__);
       do {
         props = props.concat(Object.getOwnPropertyNames(obj || instance));
       } while (obj = Object.getPrototypeOf(obj || instance));
       each(props, function _anonymous_35(key) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
         if (!contains(propsBlacklist, key)) {
-          var descriptor = getPropDescriptor(instance, key) || getPropDescriptor(proto, key);_ProcessVariable_({descriptor: descriptor});
-          var hasGetterSetter = descriptor && (descriptor.get || descriptor.set);_ProcessVariable_({hasGetterSetter: hasGetterSetter});
+          var descriptor = getPropDescriptor(instance, key) || getPropDescriptor(proto, key);_ProcessVariable_({descriptor: descriptor}, __O__);
+          var hasGetterSetter = descriptor && (descriptor.get || descriptor.set);_ProcessVariable_({hasGetterSetter: hasGetterSetter}, __O__);
           if (!tag$$1.hasOwnProperty(key) && hasGetterSetter) {
             Object.defineProperty(tag$$1, key, descriptor);
           } else {
@@ -1875,8 +1875,8 @@
 
   
   function moveChild(tagName, newPos) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var parent = this.parent;_ProcessVariable_({parent: parent});
-    var tags;_ProcessVariable_({tags: tags});
+    var parent = this.parent;_ProcessVariable_({parent: parent}, __O__);
+    var tags;_ProcessVariable_({tags: tags}, __O__);
     if (!parent) {
       return _ProcessReturn_(undefined, __O__);
     }
@@ -1892,11 +1892,11 @@
 
   
   function moveVirtual(src, target) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var this$1 = this;_ProcessVariable_({this$1: this$1});
+    var this$1 = this;_ProcessVariable_({this$1: this$1}, __O__);
 
-    var el = this.__.head;_ProcessVariable_({el: el});
-    var sib;_ProcessVariable_({sib: sib});
-    var frag = createFragment();_ProcessVariable_({frag: frag});
+    var el = this.__.head;_ProcessVariable_({el: el}, __O__);
+    var sib;_ProcessVariable_({sib: sib}, __O__);
+    var frag = createFragment();_ProcessVariable_({frag: frag}, __O__);
 
     while (el) {
       sib = el.nextSibling;
@@ -1912,7 +1912,7 @@
 
   
   function mkitem(expr, key, val) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var item = {};_ProcessVariable_({item: item});
+    var item = {};_ProcessVariable_({item: item}, __O__);
     item[expr.key] = key;
     if (expr.pos) {
       item[expr.pos] = val;
@@ -1922,8 +1922,8 @@
 
   
   function unmountRedundant(items, tags, filteredItemsCount) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var i = tags.length;_ProcessVariable_({i: i});
-    var j = items.length - filteredItemsCount;_ProcessVariable_({j: j});
+    var i = tags.length;_ProcessVariable_({i: i}, __O__);
+    var j = items.length - filteredItemsCount;_ProcessVariable_({j: j}, __O__);
 
     while (i > j) {
       i--;
@@ -1940,7 +1940,7 @@
 
   
   function moveNestedTags(i) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var this$1 = this;_ProcessVariable_({this$1: this$1});
+    var this$1 = this;_ProcessVariable_({this$1: this$1}, __O__);
 
     each(Object.keys(this.tags), function _anonymous_36(tagName) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       moveChild.apply(this$1.tags[tagName], [tagName, i]);
@@ -1985,21 +1985,21 @@
 
   
   function _each(dom, parent, expr) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var mustReorder = typeof getAttribute(dom, LOOP_NO_REORDER_DIRECTIVE) !== T_STRING || removeAttribute(dom, LOOP_NO_REORDER_DIRECTIVE);_ProcessVariable_({mustReorder: mustReorder});
-    var keyAttr = getAttribute(dom, KEY_DIRECTIVE);_ProcessVariable_({keyAttr: keyAttr});
-    var hasKeyAttrExpr = keyAttr ? tmpl.hasExpr(keyAttr) : false;_ProcessVariable_({hasKeyAttrExpr: hasKeyAttrExpr});
-    var tagName = getName(dom);_ProcessVariable_({tagName: tagName});
-    var impl = __TAG_IMPL[tagName];_ProcessVariable_({impl: impl});
-    var parentNode = dom.parentNode;_ProcessVariable_({parentNode: parentNode});
-    var placeholder = createDOMPlaceholder();_ProcessVariable_({placeholder: placeholder});
-    var child = get(dom);_ProcessVariable_({child: child});
-    var ifExpr = getAttribute(dom, CONDITIONAL_DIRECTIVE);_ProcessVariable_({ifExpr: ifExpr});
-    var tags = [];_ProcessVariable_({tags: tags});
-    var isLoop = true;_ProcessVariable_({isLoop: isLoop});
-    var innerHTML = dom.innerHTML;_ProcessVariable_({innerHTML: innerHTML});
-    var isAnonymous = !__TAG_IMPL[tagName];_ProcessVariable_({isAnonymous: isAnonymous});
-    var isVirtual = dom.tagName === 'VIRTUAL';_ProcessVariable_({isVirtual: isVirtual});
-    var oldItems = [];_ProcessVariable_({oldItems: oldItems});
+    var mustReorder = typeof getAttribute(dom, LOOP_NO_REORDER_DIRECTIVE) !== T_STRING || removeAttribute(dom, LOOP_NO_REORDER_DIRECTIVE);_ProcessVariable_({mustReorder: mustReorder}, __O__);
+    var keyAttr = getAttribute(dom, KEY_DIRECTIVE);_ProcessVariable_({keyAttr: keyAttr}, __O__);
+    var hasKeyAttrExpr = keyAttr ? tmpl.hasExpr(keyAttr) : false;_ProcessVariable_({hasKeyAttrExpr: hasKeyAttrExpr}, __O__);
+    var tagName = getName(dom);_ProcessVariable_({tagName: tagName}, __O__);
+    var impl = __TAG_IMPL[tagName];_ProcessVariable_({impl: impl}, __O__);
+    var parentNode = dom.parentNode;_ProcessVariable_({parentNode: parentNode}, __O__);
+    var placeholder = createDOMPlaceholder();_ProcessVariable_({placeholder: placeholder}, __O__);
+    var child = get(dom);_ProcessVariable_({child: child}, __O__);
+    var ifExpr = getAttribute(dom, CONDITIONAL_DIRECTIVE);_ProcessVariable_({ifExpr: ifExpr}, __O__);
+    var tags = [];_ProcessVariable_({tags: tags}, __O__);
+    var isLoop = true;_ProcessVariable_({isLoop: isLoop}, __O__);
+    var innerHTML = dom.innerHTML;_ProcessVariable_({innerHTML: innerHTML}, __O__);
+    var isAnonymous = !__TAG_IMPL[tagName];_ProcessVariable_({isAnonymous: isAnonymous}, __O__);
+    var isVirtual = dom.tagName === 'VIRTUAL';_ProcessVariable_({isVirtual: isVirtual}, __O__);
+    var oldItems = [];_ProcessVariable_({oldItems: oldItems}, __O__);
     removeAttribute(dom, LOOP_DIRECTIVE);
     removeAttribute(dom, KEY_DIRECTIVE);
     expr = tmpl.loopKeys(expr);
@@ -2014,12 +2014,12 @@
     expr.update = function updateEach() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       expr.value = tmpl(expr.val, parent);
 
-      var items = expr.value;_ProcessVariable_({items: items});
-      var frag = createFragment();_ProcessVariable_({frag: frag});
-      var isObject = !isArray(items) && !isString(items);_ProcessVariable_({isObject: isObject});
-      var root = placeholder.parentNode;_ProcessVariable_({root: root});
-      var tmpItems = [];_ProcessVariable_({tmpItems: tmpItems});
-      var hasKeys = isObject && !!items;_ProcessVariable_({hasKeys: hasKeys});
+      var items = expr.value;_ProcessVariable_({items: items}, __O__);
+      var frag = createFragment();_ProcessVariable_({frag: frag}, __O__);
+      var isObject = !isArray(items) && !isString(items);_ProcessVariable_({isObject: isObject}, __O__);
+      var root = placeholder.parentNode;_ProcessVariable_({root: root}, __O__);
+      var tmpItems = [];_ProcessVariable_({tmpItems: tmpItems}, __O__);
+      var hasKeys = isObject && !!items;_ProcessVariable_({hasKeys: hasKeys}, __O__);
       if (!root) {
         return _ProcessReturn_(undefined, __O__);
       }
@@ -2028,23 +2028,23 @@
           return _ProcessReturn_(mkitem(expr, items[key], key), __O__);
         }) : [];
       }
-      var filteredItemsCount = 0;_ProcessVariable_({filteredItemsCount: filteredItemsCount});
+      var filteredItemsCount = 0;_ProcessVariable_({filteredItemsCount: filteredItemsCount}, __O__);
       each(items, function _anonymous_38(_item, index) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-        var i = index - filteredItemsCount;_ProcessVariable_({i: i});
-        var item = !hasKeys && expr.key ? mkitem(expr, _item, index) : _item;_ProcessVariable_({item: item});
+        var i = index - filteredItemsCount;_ProcessVariable_({i: i}, __O__);
+        var item = !hasKeys && expr.key ? mkitem(expr, _item, index) : _item;_ProcessVariable_({item: item}, __O__);
         if (ifExpr && !tmpl(ifExpr, extend(create(parent), item))) {
           filteredItemsCount++;
           return _ProcessReturn_(undefined, __O__);
         }
 
-        var itemId = getItemId(keyAttr, _item, item, hasKeyAttrExpr);_ProcessVariable_({itemId: itemId});
-        var doReorder = !isObject && mustReorder && typeof _item === T_OBJECT || keyAttr;_ProcessVariable_({doReorder: doReorder});
-        var oldPos = oldItems.indexOf(itemId);_ProcessVariable_({oldPos: oldPos});
-        var isNew = oldPos === -1;_ProcessVariable_({isNew: isNew});
-        var pos = !isNew && doReorder ? oldPos : i;_ProcessVariable_({pos: pos});
-        var tag = tags[pos];_ProcessVariable_({tag: tag});
-        var mustAppend = i >= oldItems.length;_ProcessVariable_({mustAppend: mustAppend});
-        var mustCreate = doReorder && isNew || !doReorder && !tag || !tags[i];_ProcessVariable_({mustCreate: mustCreate});
+        var itemId = getItemId(keyAttr, _item, item, hasKeyAttrExpr);_ProcessVariable_({itemId: itemId}, __O__);
+        var doReorder = !isObject && mustReorder && typeof _item === T_OBJECT || keyAttr;_ProcessVariable_({doReorder: doReorder}, __O__);
+        var oldPos = oldItems.indexOf(itemId);_ProcessVariable_({oldPos: oldPos}, __O__);
+        var isNew = oldPos === -1;_ProcessVariable_({isNew: isNew}, __O__);
+        var pos = !isNew && doReorder ? oldPos : i;_ProcessVariable_({pos: pos}, __O__);
+        var tag = tags[pos];_ProcessVariable_({tag: tag}, __O__);
+        var mustAppend = i >= oldItems.length;_ProcessVariable_({mustAppend: mustAppend}, __O__);
+        var mustCreate = doReorder && isNew || !doReorder && !tag || !tags[i];_ProcessVariable_({mustCreate: mustCreate}, __O__);
         if (mustCreate) {
           tag = createTag(impl, {
             parent: parent,
@@ -2153,7 +2153,7 @@
     }
 
     
-  };_ProcessVariable_({RefExpr: RefExpr});function createRefDirective(dom, tag, attrName, attrValue) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
+  };_ProcessVariable_({RefExpr: RefExpr}, __O__);function createRefDirective(dom, tag, attrName, attrValue) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     return _ProcessReturn_(create(RefExpr).init(dom, tag, attrName, attrValue), __O__);
   }
 
@@ -2214,20 +2214,20 @@
     }
 
     
-  };_ProcessVariable_({IfExpr: IfExpr});function createIfDirective(dom, tag, attr) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
+  };_ProcessVariable_({IfExpr: IfExpr}, __O__);function createIfDirective(dom, tag, attr) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     return _ProcessReturn_(create(IfExpr).init(dom, tag, attr), __O__);
   }
 
   
   function parseExpressions(root, mustIncludeRoot) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var this$1 = this;_ProcessVariable_({this$1: this$1});
+    var this$1 = this;_ProcessVariable_({this$1: this$1}, __O__);
 
-    var expressions = [];_ProcessVariable_({expressions: expressions});
+    var expressions = [];_ProcessVariable_({expressions: expressions}, __O__);
 
     walkNodes(root, function _anonymous_42(dom) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-      var type = dom.nodeType;_ProcessVariable_({type: type});
-      var attr;_ProcessVariable_({attr: attr});
-      var tagImpl;_ProcessVariable_({tagImpl: tagImpl});
+      var type = dom.nodeType;_ProcessVariable_({type: type}, __O__);
+      var attr;_ProcessVariable_({attr: attr}, __O__);
+      var tagImpl;_ProcessVariable_({tagImpl: tagImpl}, __O__);
 
       if (!mustIncludeRoot && dom === root) {
         return _ProcessReturn_(undefined, __O__);
@@ -2240,7 +2240,7 @@
         return _ProcessReturn_(undefined, __O__);
       }
 
-      var isVirtual = dom.tagName === 'VIRTUAL';_ProcessVariable_({isVirtual: isVirtual});
+      var isVirtual = dom.tagName === 'VIRTUAL';_ProcessVariable_({isVirtual: isVirtual}, __O__);
       if (attr = getAttribute(dom, LOOP_DIRECTIVE)) {
         if (isVirtual) {
           setAttribute(dom, 'loopVirtual', true);
@@ -2278,10 +2278,10 @@
       }
 
       if (tagImpl && (dom !== root || mustIncludeRoot)) {
-        var hasIsDirective = getAttribute(dom, IS_DIRECTIVE);_ProcessVariable_({hasIsDirective: hasIsDirective});
+        var hasIsDirective = getAttribute(dom, IS_DIRECTIVE);_ProcessVariable_({hasIsDirective: hasIsDirective}, __O__);
         if (isVirtual && !hasIsDirective) {
           setAttribute(dom, 'virtualized', true);
-          var tag = createTag({ tmpl: dom.outerHTML }, { root: dom, parent: this$1 }, dom.innerHTML);_ProcessVariable_({tag: tag});
+          var tag = createTag({ tmpl: dom.outerHTML }, { root: dom, parent: this$1 }, dom.innerHTML);_ProcessVariable_({tag: tag}, __O__);
 
           expressions.push(tag);
         } else {
@@ -2309,16 +2309,16 @@
 
   
   function parseAttributes(dom, attrs, fn) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var this$1 = this;_ProcessVariable_({this$1: this$1});
+    var this$1 = this;_ProcessVariable_({this$1: this$1}, __O__);
 
     each(attrs, function _anonymous_44(attr) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       if (!attr) {
         return _ProcessReturn_(false, __O__);
       }
 
-      var name = attr.name;_ProcessVariable_({name: name});
-      var bool = isBoolAttr(name);_ProcessVariable_({bool: bool});
-      var expr;_ProcessVariable_({expr: expr});
+      var name = attr.name;_ProcessVariable_({name: name}, __O__);
+      var bool = isBoolAttr(name);_ProcessVariable_({bool: bool}, __O__);
+      var expr;_ProcessVariable_({expr: expr}, __O__);
 
       if (contains(REF_DIRECTIVES, name) && dom.tagName.toLowerCase() !== YIELD_TAG) {
         expr = createRefDirective(dom, this$1, name, attr.value);
@@ -2332,9 +2332,9 @@
 
   
   function setMountState(value) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var ref = this.__;_ProcessVariable_({ref: ref});
-    var isAnonymous = ref.isAnonymous;_ProcessVariable_({isAnonymous: isAnonymous});
-    var skipAnonymous = ref.skipAnonymous;_ProcessVariable_({skipAnonymous: skipAnonymous});
+    var ref = this.__;_ProcessVariable_({ref: ref}, __O__);
+    var isAnonymous = ref.isAnonymous;_ProcessVariable_({isAnonymous: isAnonymous}, __O__);
+    var skipAnonymous = ref.skipAnonymous;_ProcessVariable_({skipAnonymous: skipAnonymous}, __O__);
 
     define(this, 'isMounted', value);
 
@@ -2351,8 +2351,8 @@
 
   
   function componentMount(tag$$1, dom, expressions, opts) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var __ = tag$$1.__;_ProcessVariable_({__: __});
-    var root = __.root;_ProcessVariable_({root: root});
+    var __ = tag$$1.__;_ProcessVariable_({__: __}, __O__);
+    var root = __.root;_ProcessVariable_({root: root}, __O__);
     root._tag = tag$$1;
     parseAttributes.apply(__.parent, [root, root.attributes, function _anonymous_45(attr, expr) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       if (!__.isAnonymous && RefExpr.isPrototypeOf(expr)) {
@@ -2372,7 +2372,7 @@
       }
     }]);
     updateOpts.apply(tag$$1, [__.isLoop, __.parent, __.isAnonymous, opts, __.instAttrs]);
-    var globalMixin = mixin(GLOBAL_MIXIN);_ProcessVariable_({globalMixin: globalMixin});
+    var globalMixin = mixin(GLOBAL_MIXIN);_ProcessVariable_({globalMixin: globalMixin}, __O__);
 
     if (globalMixin && !__.skipAnonymous) {
       for (var i in globalMixin) {
@@ -2403,7 +2403,7 @@
 
     define(tag$$1, 'root', root);
     if (!__.skipAnonymous && tag$$1.parent) {
-      var p = getImmediateCustomParent(tag$$1.parent);_ProcessVariable_({p: p});
+      var p = getImmediateCustomParent(tag$$1.parent);_ProcessVariable_({p: p}, __O__);
       p.one(!p.isMounted ? 'mount' : 'updated', function _anonymous_49() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
         setMountState.call(tag$$1, true);
       });
@@ -2418,10 +2418,10 @@
 
   
   function tagUnmount(tag, mustKeepRoot, expressions) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var __ = tag.__;_ProcessVariable_({__: __});
-    var root = __.root;_ProcessVariable_({root: root});
-    var tagIndex = __TAGS_CACHE.indexOf(tag);_ProcessVariable_({tagIndex: tagIndex});
-    var p = root.parentNode;_ProcessVariable_({p: p});
+    var __ = tag.__;_ProcessVariable_({__: __}, __O__);
+    var root = __.root;_ProcessVariable_({root: root}, __O__);
+    var tagIndex = __TAGS_CACHE.indexOf(tag);_ProcessVariable_({tagIndex: tagIndex}, __O__);
+    var p = root.parentNode;_ProcessVariable_({p: p}, __O__);
 
     if (!__.skipAnonymous) {
       tag.trigger('before-unmount');
@@ -2442,7 +2442,7 @@
       __TAGS_CACHE.splice(tagIndex, 1);
     }
     if (__.parent && !__.isAnonymous) {
-      var ptag = getImmediateCustomParent(__.parent);_ProcessVariable_({ptag: ptag});
+      var ptag = getImmediateCustomParent(__.parent);_ProcessVariable_({ptag: ptag}, __O__);
 
       if (__.isVirtual) {
         Object.keys(tag.tags).forEach(function _anonymous_53(tagName) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -2488,23 +2488,23 @@
     if (impl === void 0) impl = {};
     if (conf === void 0) conf = {};
 
-    var tag = conf.context || {};_ProcessVariable_({tag: tag});
-    var opts = conf.opts || {};_ProcessVariable_({opts: opts});
-    var parent = conf.parent;_ProcessVariable_({parent: parent});
-    var isLoop = conf.isLoop;_ProcessVariable_({isLoop: isLoop});
-    var isAnonymous = !!conf.isAnonymous;_ProcessVariable_({isAnonymous: isAnonymous});
-    var skipAnonymous = settings.skipAnonymousTags && isAnonymous;_ProcessVariable_({skipAnonymous: skipAnonymous});
-    var item = conf.item;_ProcessVariable_({item: item});
-    var index = conf.index;_ProcessVariable_({index: index});
-    var instAttrs = [];_ProcessVariable_({instAttrs: instAttrs});
-    var implAttrs = [];_ProcessVariable_({implAttrs: implAttrs});
-    var tmpl = impl.tmpl;_ProcessVariable_({tmpl: tmpl});
-    var expressions = [];_ProcessVariable_({expressions: expressions});
-    var root = conf.root;_ProcessVariable_({root: root});
-    var tagName = conf.tagName || getName(root);_ProcessVariable_({tagName: tagName});
-    var isVirtual = tagName === 'virtual';_ProcessVariable_({isVirtual: isVirtual});
-    var isInline = !isVirtual && !tmpl;_ProcessVariable_({isInline: isInline});
-    var dom;_ProcessVariable_({dom: dom});
+    var tag = conf.context || {};_ProcessVariable_({tag: tag}, __O__);
+    var opts = conf.opts || {};_ProcessVariable_({opts: opts}, __O__);
+    var parent = conf.parent;_ProcessVariable_({parent: parent}, __O__);
+    var isLoop = conf.isLoop;_ProcessVariable_({isLoop: isLoop}, __O__);
+    var isAnonymous = !!conf.isAnonymous;_ProcessVariable_({isAnonymous: isAnonymous}, __O__);
+    var skipAnonymous = settings.skipAnonymousTags && isAnonymous;_ProcessVariable_({skipAnonymous: skipAnonymous}, __O__);
+    var item = conf.item;_ProcessVariable_({item: item}, __O__);
+    var index = conf.index;_ProcessVariable_({index: index}, __O__);
+    var instAttrs = [];_ProcessVariable_({instAttrs: instAttrs}, __O__);
+    var implAttrs = [];_ProcessVariable_({implAttrs: implAttrs}, __O__);
+    var tmpl = impl.tmpl;_ProcessVariable_({tmpl: tmpl}, __O__);
+    var expressions = [];_ProcessVariable_({expressions: expressions}, __O__);
+    var root = conf.root;_ProcessVariable_({root: root}, __O__);
+    var tagName = conf.tagName || getName(root);_ProcessVariable_({tagName: tagName}, __O__);
+    var isVirtual = tagName === 'virtual';_ProcessVariable_({isVirtual: isVirtual}, __O__);
+    var isInline = !isVirtual && !tmpl;_ProcessVariable_({isInline: isInline}, __O__);
+    var dom;_ProcessVariable_({dom: dom}, __O__);
 
     if (isInline || isLoop && isAnonymous) {
       dom = root;
@@ -2546,7 +2546,7 @@
     ['tags', {}], ['refs', {}], ['update', function _anonymous_56(data) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       return componentUpdate(tag, data, expressions);
     }], ['mixin', function _anonymous_57() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-      var mixins = [], len = arguments.length;_ProcessVariable_({mixins: mixins,len: len});
+      var mixins = [], len = arguments.length;_ProcessVariable_({mixins: mixins,len: len}, __O__);
       while (len--) mixins[len] = arguments[len];
 
       return componentMixin.apply(void 0, [tag].concat(mixins));
@@ -2555,9 +2555,9 @@
     }], ['unmount', function _anonymous_59(mustKeepRoot) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       return tagUnmount(tag, mustKeepRoot, expressions);
     }]].reduce(function _anonymous_60(acc, ref) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-      var key = ref[0];_ProcessVariable_({key: key});
-      var value = ref[1];_ProcessVariable_({value: value});
-      var opts = ref[2];_ProcessVariable_({opts: opts});
+      var key = ref[0];_ProcessVariable_({key: key}, __O__);
+      var value = ref[1];_ProcessVariable_({value: value}, __O__);
+      var opts = ref[2];_ProcessVariable_({opts: opts}, __O__);
 
       define(tag, key, value, opts);
       return acc;
@@ -2566,12 +2566,12 @@
 
   
   function mount$1(root, tagName, opts, ctx) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var impl = __TAG_IMPL[tagName];_ProcessVariable_({impl: impl});
-    var implClass = __TAG_IMPL[tagName].class;_ProcessVariable_({implClass: implClass});
-    var context = ctx || (implClass ? create(implClass.prototype) : {});_ProcessVariable_({context: context});
-    var innerHTML = root._innerHTML = root._innerHTML || root.innerHTML;_ProcessVariable_({innerHTML: innerHTML});
-    var conf = extend({ root: root, opts: opts, context: context }, { parent: opts ? opts.parent : null });_ProcessVariable_({conf: conf});
-    var tag;_ProcessVariable_({tag: tag});
+    var impl = __TAG_IMPL[tagName];_ProcessVariable_({impl: impl}, __O__);
+    var implClass = __TAG_IMPL[tagName].class;_ProcessVariable_({implClass: implClass}, __O__);
+    var context = ctx || (implClass ? create(implClass.prototype) : {});_ProcessVariable_({context: context}, __O__);
+    var innerHTML = root._innerHTML = root._innerHTML || root.innerHTML;_ProcessVariable_({innerHTML: innerHTML}, __O__);
+    var conf = extend({ root: root, opts: opts, context: context }, { parent: opts ? opts.parent : null });_ProcessVariable_({conf: conf}, __O__);
+    var tag;_ProcessVariable_({tag: tag}, __O__);
 
     if (impl && root) {
       tag = createTag(impl, conf, innerHTML);
@@ -2604,10 +2604,10 @@
     unmountAll: unmountAll,
     createIfDirective: createIfDirective,
     createRefDirective: createRefDirective
-  });_ProcessVariable_({tags: tags});
+  });_ProcessVariable_({tags: tags}, __O__);
 
   
-  var settings$1 = settings;_ProcessVariable_({settings$1: settings$1});
+  var settings$1 = settings;_ProcessVariable_({settings$1: settings$1}, __O__);
   var util = {
     tmpl: tmpl,
     brackets: brackets,
@@ -2618,22 +2618,22 @@
     check: check,
     misc: misc,
     tags: tags
-  };_ProcessVariable_({util: util});
-  var Tag$1 = Tag;_ProcessVariable_({Tag$1: Tag$1});
-  var tag$1 = tag;_ProcessVariable_({tag$1: tag$1});
-  var tag2$1 = tag2;_ProcessVariable_({tag2$1: tag2$1});
-  var mount$2 = mount;_ProcessVariable_({mount$2: mount$2});
-  var mixin$1 = mixin;_ProcessVariable_({mixin$1: mixin$1});
-  var update$2 = update$1;_ProcessVariable_({update$2: update$2});
-  var unregister$1 = unregister;_ProcessVariable_({unregister$1: unregister$1});
-  var version$1 = version;_ProcessVariable_({version$1: version$1});
-  var observable$1 = observable;_ProcessVariable_({observable$1: observable$1});
+  };_ProcessVariable_({util: util}, __O__);
+  var Tag$1 = Tag;_ProcessVariable_({Tag$1: Tag$1}, __O__);
+  var tag$1 = tag;_ProcessVariable_({tag$1: tag$1}, __O__);
+  var tag2$1 = tag2;_ProcessVariable_({tag2$1: tag2$1}, __O__);
+  var mount$2 = mount;_ProcessVariable_({mount$2: mount$2}, __O__);
+  var mixin$1 = mixin;_ProcessVariable_({mixin$1: mixin$1}, __O__);
+  var update$2 = update$1;_ProcessVariable_({update$2: update$2}, __O__);
+  var unregister$1 = unregister;_ProcessVariable_({unregister$1: unregister$1}, __O__);
+  var version$1 = version;_ProcessVariable_({version$1: version$1}, __O__);
+  var observable$1 = observable;_ProcessVariable_({observable$1: observable$1}, __O__);
 
   var riot$1 = extend({}, core, {
     observable: observable,
     settings: settings$1,
     util: util
-  });_ProcessVariable_({riot$1: riot$1});
+  });_ProcessVariable_({riot$1: riot$1}, __O__);
 
   var riot$2 = Object.freeze({
     settings: settings$1,
@@ -2648,14 +2648,14 @@
     version: version$1,
     observable: observable$1,
     default: riot$1
-  });_ProcessVariable_({riot$2: riot$2});
+  });_ProcessVariable_({riot$2: riot$2}, __O__);
 
   
   function safeRegex(re) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var arguments$1 = arguments;_ProcessVariable_({arguments$1: arguments$1});
+    var arguments$1 = arguments;_ProcessVariable_({arguments$1: arguments$1}, __O__);
 
-    var src = re.source;_ProcessVariable_({src: src});
-    var opt = re.global ? 'g' : '';_ProcessVariable_({opt: opt});
+    var src = re.source;_ProcessVariable_({src: src}, __O__);
+    var opt = re.global ? 'g' : '';_ProcessVariable_({opt: opt}, __O__);
 
     if (re.ignoreCase) {
       opt += 'i';
@@ -2812,22 +2812,22 @@
     };
 
     return _ProcessReturn_(_p, __O__);
-  }(window || global);_ProcessVariable_({parsers: parsers});
+  }(window || global);_ProcessVariable_({parsers: parsers}, __O__);
 
-  var S_SQ_STR = /'[^'\n\r\\]*(?:\\(?:\r\n?|[\S\s])[^'\n\r\\]*)*'/.source;_ProcessVariable_({S_SQ_STR: S_SQ_STR});
+  var S_SQ_STR = /'[^'\n\r\\]*(?:\\(?:\r\n?|[\S\s])[^'\n\r\\]*)*'/.source;_ProcessVariable_({S_SQ_STR: S_SQ_STR}, __O__);
 
-  var S_R_SRC1 = [/\/\*[^*]*\*+(?:[^*/][^*]*\*+)*\//.source, '//.*', S_SQ_STR, S_SQ_STR.replace(/'/g, '"'), '([/`])'].join('|');_ProcessVariable_({S_R_SRC1: S_R_SRC1});
+  var S_R_SRC1 = [/\/\*[^*]*\*+(?:[^*/][^*]*\*+)*\//.source, '//.*', S_SQ_STR, S_SQ_STR.replace(/'/g, '"'), '([/`])'].join('|');_ProcessVariable_({S_R_SRC1: S_R_SRC1}, __O__);
 
-  var S_R_SRC2 = S_R_SRC1.slice(0, -2) + "{}])";_ProcessVariable_({S_R_SRC2: S_R_SRC2});
+  var S_R_SRC2 = S_R_SRC1.slice(0, -2) + "{}])";_ProcessVariable_({S_R_SRC2: S_R_SRC2}, __O__);
 
   function skipES6str(code, start, stack) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
 
-    var re = /[`$\\]/g;_ProcessVariable_({re: re});
+    var re = /[`$\\]/g;_ProcessVariable_({re: re}, __O__);
 
     re.lastIndex = start;
     while (re.exec(code)) {
-      var end = re.lastIndex;_ProcessVariable_({end: end});
-      var c = code[end - 1];_ProcessVariable_({c: c});
+      var end = re.lastIndex;_ProcessVariable_({end: end}, __O__);
+      var c = code[end - 1];_ProcessVariable_({c: c}, __O__);
 
       if (c === '`') {
         return _ProcessReturn_(end, __O__);
@@ -2844,18 +2844,18 @@
 
   function jsSplitter(code, start) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
 
-    var re1 = new RegExp(S_R_SRC1, 'g');_ProcessVariable_({re1: re1});
-    var re2;_ProcessVariable_({re2: re2});
+    var re1 = new RegExp(S_R_SRC1, 'g');_ProcessVariable_({re1: re1}, __O__);
+    var re2;_ProcessVariable_({re2: re2}, __O__);
 
     
-    var skipRegex = brackets.skipRegex;_ProcessVariable_({skipRegex: skipRegex});
-    var offset = start | 0;_ProcessVariable_({offset: offset});
-    var result = [[]];_ProcessVariable_({result: result});
-    var stack = [];_ProcessVariable_({stack: stack});
-    var re = re1;_ProcessVariable_({re: re});
+    var skipRegex = brackets.skipRegex;_ProcessVariable_({skipRegex: skipRegex}, __O__);
+    var offset = start | 0;_ProcessVariable_({offset: offset}, __O__);
+    var result = [[]];_ProcessVariable_({result: result}, __O__);
+    var stack = [];_ProcessVariable_({stack: stack}, __O__);
+    var re = re1;_ProcessVariable_({re: re}, __O__);
 
-    var lastPos = re.lastIndex = offset;_ProcessVariable_({lastPos: lastPos});
-    var str, ch, idx, end, match;_ProcessVariable_({str: str,ch: ch,idx: idx,end: end,match: match});
+    var lastPos = re.lastIndex = offset;_ProcessVariable_({lastPos: lastPos}, __O__);
+    var str, ch, idx, end, match;_ProcessVariable_({str: str,ch: ch,idx: idx,end: end,match: match}, __O__);
 
     while (match = re.exec(code)) {
       idx = match.index;
@@ -2921,43 +2921,43 @@
 
   
 
-  var extend$1 = parsers.utils.extend;_ProcessVariable_({extend$1: extend$1});
+  var extend$1 = parsers.utils.extend;_ProcessVariable_({extend$1: extend$1}, __O__);
   
 
-  var S_LINESTR = /"[^"\n\\]*(?:\\[\S\s][^"\n\\]*)*"|'[^'\n\\]*(?:\\[\S\s][^'\n\\]*)*'/.source;_ProcessVariable_({S_LINESTR: S_LINESTR});
+  var S_LINESTR = /"[^"\n\\]*(?:\\[\S\s][^"\n\\]*)*"|'[^'\n\\]*(?:\\[\S\s][^'\n\\]*)*'/.source;_ProcessVariable_({S_LINESTR: S_LINESTR}, __O__);
 
-  var S_STRINGS = brackets.R_STRINGS.source;_ProcessVariable_({S_STRINGS: S_STRINGS});
+  var S_STRINGS = brackets.R_STRINGS.source;_ProcessVariable_({S_STRINGS: S_STRINGS}, __O__);
 
-  var HTML_ATTRS = / *([-\w:\xA0-\xFF]+) ?(?:= ?('[^']*'|"[^"]*"|\S+))?/g;_ProcessVariable_({HTML_ATTRS: HTML_ATTRS});
+  var HTML_ATTRS = / *([-\w:\xA0-\xFF]+) ?(?:= ?('[^']*'|"[^"]*"|\S+))?/g;_ProcessVariable_({HTML_ATTRS: HTML_ATTRS}, __O__);
 
-  var HTML_COMMS = RegExp(/<!--(?!>)[\S\s]*?-->/.source + '|' + S_LINESTR, 'g');_ProcessVariable_({HTML_COMMS: HTML_COMMS});
+  var HTML_COMMS = RegExp(/<!--(?!>)[\S\s]*?-->/.source + '|' + S_LINESTR, 'g');_ProcessVariable_({HTML_COMMS: HTML_COMMS}, __O__);
 
-  var HTML_TAGS = /<(-?[A-Za-z][-\w\xA0-\xFF]*)(?:\s+([^"'/>]*(?:(?:"[^"]*"|'[^']*'|\/[^>])[^'"/>]*)*)|\s*)(\/?)>/g;_ProcessVariable_({HTML_TAGS: HTML_TAGS});
+  var HTML_TAGS = /<(-?[A-Za-z][-\w\xA0-\xFF]*)(?:\s+([^"'/>]*(?:(?:"[^"]*"|'[^']*'|\/[^>])[^'"/>]*)*)|\s*)(\/?)>/g;_ProcessVariable_({HTML_TAGS: HTML_TAGS}, __O__);
 
-  var HTML_PACK = />[ \t]+<(-?[A-Za-z]|\/[-A-Za-z])/g;_ProcessVariable_({HTML_PACK: HTML_PACK});
+  var HTML_PACK = />[ \t]+<(-?[A-Za-z]|\/[-A-Za-z])/g;_ProcessVariable_({HTML_PACK: HTML_PACK}, __O__);
 
-  var RIOT_ATTRS = ['style', 'src', 'd', 'value'];_ProcessVariable_({RIOT_ATTRS: RIOT_ATTRS});
+  var RIOT_ATTRS = ['style', 'src', 'd', 'value'];_ProcessVariable_({RIOT_ATTRS: RIOT_ATTRS}, __O__);
 
-  var VOID_TAGS = /^(?:input|img|br|wbr|hr|area|base|col|embed|keygen|link|meta|param|source|track)$/;_ProcessVariable_({VOID_TAGS: VOID_TAGS});
+  var VOID_TAGS = /^(?:input|img|br|wbr|hr|area|base|col|embed|keygen|link|meta|param|source|track)$/;_ProcessVariable_({VOID_TAGS: VOID_TAGS}, __O__);
 
-  var PRE_TAGS = /<pre(?:\s+(?:[^">]*|"[^"]*")*)?>([\S\s]+?)<\/pre\s*>/gi;_ProcessVariable_({PRE_TAGS: PRE_TAGS});
+  var PRE_TAGS = /<pre(?:\s+(?:[^">]*|"[^"]*")*)?>([\S\s]+?)<\/pre\s*>/gi;_ProcessVariable_({PRE_TAGS: PRE_TAGS}, __O__);
 
-  var SPEC_TYPES = /^"(?:number|date(?:time)?|time|month|email|color)\b/i;_ProcessVariable_({SPEC_TYPES: SPEC_TYPES});
+  var SPEC_TYPES = /^"(?:number|date(?:time)?|time|month|email|color)\b/i;_ProcessVariable_({SPEC_TYPES: SPEC_TYPES}, __O__);
 
-  var IMPORT_STATEMENT = /^\s*import(?!\w)(?:(?:\s|[^\s'"])*)['|"].*\n?/gm;_ProcessVariable_({IMPORT_STATEMENT: IMPORT_STATEMENT});
+  var IMPORT_STATEMENT = /^\s*import(?!\w)(?:(?:\s|[^\s'"])*)['|"].*\n?/gm;_ProcessVariable_({IMPORT_STATEMENT: IMPORT_STATEMENT}, __O__);
 
-  var TRIM_TRAIL = /[ \t]+$/gm;_ProcessVariable_({TRIM_TRAIL: TRIM_TRAIL});
+  var TRIM_TRAIL = /[ \t]+$/gm;_ProcessVariable_({TRIM_TRAIL: TRIM_TRAIL}, __O__);
 
   var RE_HASEXPR = safeRegex(/@#\d/, 'x01'),
       RE_REPEXPR = safeRegex(/@#(\d+)/g, 'x01'),
       CH_IDEXPR = '\x01#',
       CH_DQCODE = '\u2057',
       DQ = '"',
-      SQ = "'";_ProcessVariable_({RE_HASEXPR: RE_HASEXPR,RE_REPEXPR: RE_REPEXPR,CH_IDEXPR: CH_IDEXPR,CH_DQCODE: CH_DQCODE,DQ: DQ,SQ: SQ});
+      SQ = "'";_ProcessVariable_({RE_HASEXPR: RE_HASEXPR,RE_REPEXPR: RE_REPEXPR,CH_IDEXPR: CH_IDEXPR,CH_DQCODE: CH_DQCODE,DQ: DQ,SQ: SQ}, __O__);
 
   function cleanSource(src) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     var mm,
-        re = HTML_COMMS;_ProcessVariable_({mm: mm,re: re});
+        re = HTML_COMMS;_ProcessVariable_({mm: mm,re: re}, __O__);
 
     if (src.indexOf('\r') !== 1) {
       src = src.replace(/\r\n?/g, '\n');
@@ -2977,7 +2977,7 @@
     var list = [],
         match,
         type,
-        vexp;_ProcessVariable_({list: list,match: match,type: type,vexp: vexp});
+        vexp;_ProcessVariable_({list: list,match: match,type: type,vexp: vexp}, __O__);
 
     HTML_ATTRS.lastIndex = 0;
 
@@ -2985,7 +2985,7 @@
 
     while (match = HTML_ATTRS.exec(str)) {
       var k = match[1].toLowerCase(),
-          v = match[2];_ProcessVariable_({k: k,v: v});
+          v = match[2];_ProcessVariable_({k: k,v: v}, __O__);
 
       if (!v) {
         list.push(k);
@@ -3023,12 +3023,12 @@
   }
 
   function splitHtml(html, opts, pcex) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var _bp = pcex._bp;_ProcessVariable_({_bp: _bp});
+    var _bp = pcex._bp;_ProcessVariable_({_bp: _bp}, __O__);
 
     if (html && _bp[4].test(html)) {
       var jsfn = opts.expr && (opts.parser || opts.type) ? _compileJS : 0,
           list = brackets.split(html, 0, _bp),
-          expr;_ProcessVariable_({jsfn: jsfn,list: list,expr: expr});
+          expr;_ProcessVariable_({jsfn: jsfn,list: list,expr: expr}, __O__);
 
       for (var i = 1; i < list.length; i += 2) {
         expr = list[i];
@@ -3076,7 +3076,7 @@
     });
 
     if (!opts.whitespace) {
-      var p = [];_ProcessVariable_({p: p});
+      var p = [];_ProcessVariable_({p: p}, __O__);
 
       if (/<pre[\s>]/.test(html)) {
         html = html.replace(PRE_TAGS, function _anonymous_74(q) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -3120,7 +3120,7 @@
     return _ProcessReturn_(_compileHTML(cleanSource(html), opts, pcex), __O__);
   }
 
-  var JS_ES6SIGN = /^[ \t]*(((?:async|\*)\s*)?([$_A-Za-z][$\w]*))\s*\([^()]*\)\s*{/m;_ProcessVariable_({JS_ES6SIGN: JS_ES6SIGN});
+  var JS_ES6SIGN = /^[ \t]*(((?:async|\*)\s*)?([$_A-Za-z][$\w]*))\s*\([^()]*\)\s*{/m;_ProcessVariable_({JS_ES6SIGN: JS_ES6SIGN}, __O__);
 
   function riotjs(js) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     var parts = [],
@@ -3130,9 +3130,9 @@
         method,
         prefix,
         name,
-        RE = RegExp;_ProcessVariable_({parts: parts,match: match,toes5: toes5,pos: pos,method: method,prefix: prefix,name: name,RE: RE});
+        RE = RegExp;_ProcessVariable_({parts: parts,match: match,toes5: toes5,pos: pos,method: method,prefix: prefix,name: name,RE: RE}, __O__);
 
-    var src = jsSplitter(js);_ProcessVariable_({src: src});
+    var src = jsSplitter(js);_ProcessVariable_({src: src}, __O__);
     js = src.shift().join('<%>');
 
     while (match = js.match(JS_ES6SIGN)) {
@@ -3174,8 +3174,8 @@
     return _ProcessReturn_(js, __O__);
 
     function skipBody(s) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-      var r = /[{}]/g;_ProcessVariable_({r: r});
-      var i = 1;_ProcessVariable_({i: i});
+      var r = /[{}]/g;_ProcessVariable_({r: r}, __O__);
+      var i = 1;_ProcessVariable_({i: i}, __O__);
 
       while (i && r.exec(s)) {
         if (s[r.lastIndex - 1] === '{') {
@@ -3196,7 +3196,7 @@
       type = opts.type;
     }
 
-    var parser = opts.parser || type && parsers._req('js.' + type, true) || riotjs;_ProcessVariable_({parser: parser});
+    var parser = opts.parser || type && parsers._req('js.' + type, true) || riotjs;_ProcessVariable_({parser: parser}, __O__);
 
     return _ProcessReturn_(parser(js, parserOpts, url).replace(/\\r\n?/g, '\n').replace(TRIM_TRAIL, ''), __O__);
   }
@@ -3218,10 +3218,10 @@
     return _ProcessReturn_(_compileJS(js, opts || {}, type, userOpts.parserOptions, userOpts.url), __O__);
   }
 
-  var CSS_SELECTOR = RegExp('([{}]|^)[; ]*((?:[^@ ;{}][^{}]*)?[^@ ;{}:] ?)(?={)|' + S_LINESTR, 'g');_ProcessVariable_({CSS_SELECTOR: CSS_SELECTOR});
+  var CSS_SELECTOR = RegExp('([{}]|^)[; ]*((?:[^@ ;{}][^{}]*)?[^@ ;{}:] ?)(?={)|' + S_LINESTR, 'g');_ProcessVariable_({CSS_SELECTOR: CSS_SELECTOR}, __O__);
 
   function scopedCSS(tag, css) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var scope = ':scope';_ProcessVariable_({scope: scope});
+    var scope = ':scope';_ProcessVariable_({scope: scope}, __O__);
 
     return _ProcessReturn_(css.replace(CSS_SELECTOR, function _anonymous_77(m, p1, p2) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
 
@@ -3230,7 +3230,7 @@
       }
 
       p2 = p2.replace(/[^,]+/g, function _anonymous_78(sel) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-        var s = sel.trim();_ProcessVariable_({s: s});
+        var s = sel.trim();_ProcessVariable_({s: s}, __O__);
 
         if (s.indexOf(tag) === 0) {
           return sel;
@@ -3258,7 +3258,7 @@
     if (type) {
       if (type !== 'css') {
 
-        var parser = parsers._req('css.' + type, true);_ProcessVariable_({parser: parser});
+        var parser = parsers._req('css.' + type, true);_ProcessVariable_({parser: parser}, __O__);
         css = parser(tag, css, opts.parserOpts || {}, opts.url);
       }
     }
@@ -3282,11 +3282,11 @@
     return _ProcessReturn_(_compileCSS(css, opts.tagName, type, opts), __O__);
   }
 
-  var TYPE_ATTR = /\stype\s*=\s*(?:(['"])(.+?)\1|(\S+))/i;_ProcessVariable_({TYPE_ATTR: TYPE_ATTR});
+  var TYPE_ATTR = /\stype\s*=\s*(?:(['"])(.+?)\1|(\S+))/i;_ProcessVariable_({TYPE_ATTR: TYPE_ATTR}, __O__);
 
-  var MISC_ATTR = '\\s*=\\s*(' + S_STRINGS + '|{[^}]+}|\\S+)';_ProcessVariable_({MISC_ATTR: MISC_ATTR});
+  var MISC_ATTR = '\\s*=\\s*(' + S_STRINGS + '|{[^}]+}|\\S+)';_ProcessVariable_({MISC_ATTR: MISC_ATTR}, __O__);
 
-  var END_TAGS = /\/>\n|^<(?:\/?-?[A-Za-z][-\w\xA0-\xFF]*\s*|-?[A-Za-z][-\w\xA0-\xFF]*\s+[-\w:\xA0-\xFF][\S\s]*?)>\n/;_ProcessVariable_({END_TAGS: END_TAGS});
+  var END_TAGS = /\/>\n|^<(?:\/?-?[A-Za-z][-\w\xA0-\xFF]*\s*|-?[A-Za-z][-\w\xA0-\xFF]*\s+[-\w:\xA0-\xFF][\S\s]*?)>\n/;_ProcessVariable_({END_TAGS: END_TAGS}, __O__);
 
   function _q(s, r) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     if (!s) {
@@ -3298,7 +3298,7 @@
 
   function mktag(name, html, css, attr, js, imports, opts) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     var c = opts.debug ? ',\n  ' : ', ',
-        s = '});';_ProcessVariable_({c: c,s: s});
+        s = '});';_ProcessVariable_({c: c,s: s}, __O__);
 
     if (js && js.slice(-1) !== '\n') {
       s = '\n' + s;
@@ -3311,7 +3311,7 @@
     if (/<[-\w]/.test(str)) {
       var m,
           k = str.lastIndexOf('<'),
-          n = str.length;_ProcessVariable_({m: m,k: k,n: n});
+          n = str.length;_ProcessVariable_({m: m,k: k,n: n}, __O__);
 
       while (k !== -1) {
         m = str.slice(k, n).match(END_TAGS);
@@ -3332,7 +3332,7 @@
 
   function getType(attribs) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     if (attribs) {
-      var match = attribs.match(TYPE_ATTR);_ProcessVariable_({match: match});
+      var match = attribs.match(TYPE_ATTR);_ProcessVariable_({match: match}, __O__);
 
       match = match && (match[2] || match[3]);
       if (match) {
@@ -3344,7 +3344,7 @@
 
   function getAttrib(attribs, name) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     if (attribs) {
-      var match = attribs.match(RegExp('\\s' + name + MISC_ATTR, 'i'));_ProcessVariable_({match: match});
+      var match = attribs.match(RegExp('\\s' + name + MISC_ATTR, 'i'));_ProcessVariable_({match: match}, __O__);
 
       match = match && match[1];
       if (match) {
@@ -3359,7 +3359,7 @@
   }
 
   function getParserOptions(attribs) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var opts = unescapeHTML(getAttrib(attribs, 'options'));_ProcessVariable_({opts: opts});
+    var opts = unescapeHTML(getAttrib(attribs, 'options'));_ProcessVariable_({opts: opts}, __O__);
 
     return _ProcessReturn_(opts ? JSON.parse(opts) : null, __O__);
   }
@@ -3367,7 +3367,7 @@
   function getCode(code, opts, attribs, base) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     var type = getType(attribs),
         src = getAttrib(attribs, 'src'),
-        jsParserOptions = extend$1({}, opts.parserOptions.js);_ProcessVariable_({type: type,src: src,jsParserOptions: jsParserOptions});
+        jsParserOptions = extend$1({}, opts.parserOptions.js);_ProcessVariable_({type: type,src: src,jsParserOptions: jsParserOptions}, __O__);
 
     if (src) {
       return _ProcessReturn_(false, __O__);
@@ -3381,20 +3381,20 @@
         extraOpts = {
       parserOpts: extend$1(parserStyleOptions, getParserOptions(attribs)),
       url: url
-    };_ProcessVariable_({parserStyleOptions: parserStyleOptions,extraOpts: extraOpts});
+    };_ProcessVariable_({parserStyleOptions: parserStyleOptions,extraOpts: extraOpts}, __O__);
 
     return _ProcessReturn_(_compileCSS(code, tag, getType(attribs) || opts.style, extraOpts), __O__);
   }
 
   function compileTemplate(html, url, lang, opts) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
 
-    var parser = parsers._req('html.' + lang, true);_ProcessVariable_({parser: parser});
+    var parser = parsers._req('html.' + lang, true);_ProcessVariable_({parser: parser}, __O__);
     return _ProcessReturn_(parser(html, opts, url), __O__);
   }
 
   var CUST_TAG = RegExp(/^([ \t]*)<(-?[A-Za-z][-\w\xA0-\xFF]*)(?:\s+([^'"/>]+(?:(?:@|\/[^>])[^'"/>]*)*)|\s*)?(?:\/>|>[ \t]*\n?([\S\s]*)^\1<\/\2\s*>|>(.*)<\/\2\s*>)/.source.replace('@', S_STRINGS), 'gim'),
       SCRIPTS = /<script(\s+[^>]*)?>\n?([\S\s]*?)<\/script\s*>/gi,
-      STYLES = /<style(\s+[^>]*)?>\n?([\S\s]*?)<\/style\s*>/gi;_ProcessVariable_({CUST_TAG: CUST_TAG,SCRIPTS: SCRIPTS,STYLES: STYLES});
+      STYLES = /<style(\s+[^>]*)?>\n?([\S\s]*?)<\/style\s*>/gi;_ProcessVariable_({CUST_TAG: CUST_TAG,SCRIPTS: SCRIPTS,STYLES: STYLES}, __O__);
 
   function compile(src, opts, url) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     var parts = [],
@@ -3405,7 +3405,7 @@
       template: {},
       js: {},
       style: {}
-    };_ProcessVariable_({parts: parts,included: included,output: output,defaultParserptions: defaultParserptions});
+    };_ProcessVariable_({parts: parts,included: included,output: output,defaultParserptions: defaultParserptions}, __O__);
 
     if (!opts) {
       opts = {};
@@ -3423,7 +3423,7 @@
       url = '';
     }
 
-    var _bp = brackets.array(opts.brackets);_ProcessVariable_({_bp: _bp});
+    var _bp = brackets.array(opts.brackets);_ProcessVariable_({_bp: _bp}, __O__);
 
     if (opts.template) {
       output = compileTemplate(output, url, opts.template, opts.parserOptions.template);
@@ -3434,7 +3434,7 @@
           styles = '',
           html = '',
           imports = '',
-          pcex = [];_ProcessVariable_({jscode: jscode,styles: styles,html: html,imports: imports,pcex: pcex});
+          pcex = [];_ProcessVariable_({jscode: jscode,styles: styles,html: html,imports: imports,pcex: pcex}, __O__);
 
       pcex._bp = _bp;
 
@@ -3455,7 +3455,7 @@
 
           body = body.replace(SCRIPTS, function _anonymous_83(_m, _attrs, _script) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
             if (included('js')) {
-              var code = getCode(_script, opts, _attrs, url);_ProcessVariable_({code: code});
+              var code = getCode(_script, opts, _attrs, url);_ProcessVariable_({code: code}, __O__);
 
               if (code) {
                 jscode += (jscode ? '\n' : '') + code;
@@ -3471,7 +3471,7 @@
             return _ProcessReturn_('', __O__);
           });
 
-          var blocks = splitBlocks(body.replace(TRIM_TRAIL, ''));_ProcessVariable_({blocks: blocks});
+          var blocks = splitBlocks(body.replace(TRIM_TRAIL, ''));_ProcessVariable_({blocks: blocks}, __O__);
 
           if (included('html')) {
             html = _compileHTML(blocks[0], opts, pcex);
@@ -3514,7 +3514,7 @@
     return _ProcessReturn_(output, __O__);
   }
 
-  var version$2 = 'v3.5.1';_ProcessVariable_({version$2: version$2});
+  var version$2 = 'v3.5.1';_ProcessVariable_({version$2: version$2}, __O__);
 
   var compiler = {
     compile: compile,
@@ -3523,12 +3523,12 @@
     compileJS: compileJS,
     parsers: parsers,
     version: version$2
-  };_ProcessVariable_({compiler: compiler});
+  };_ProcessVariable_({compiler: compiler}, __O__);
 
   var promise,
-  ready;_ProcessVariable_({promise: promise,ready: ready});
+  ready;_ProcessVariable_({promise: promise,ready: ready}, __O__);
   function GET(url, fn, opts) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-    var req = new XMLHttpRequest();_ProcessVariable_({req: req});
+    var req = new XMLHttpRequest();_ProcessVariable_({req: req}, __O__);
 
     req.onreadystatechange = function _anonymous_86() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       if (req.readyState === 4) {
@@ -3550,7 +3550,7 @@
   function globalEval(js, url) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     if (typeof js === T_STRING) {
       var node = makeElement('script'),
-          root = document.documentElement;_ProcessVariable_({node: node,root: root});
+          root = document.documentElement;_ProcessVariable_({node: node,root: root}, __O__);
       if (url) {
         js += '\n//# sourceURL=' + url + '.js';
       }
@@ -3562,7 +3562,7 @@
   }
   function compileScripts(fn, xopt) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     var scripts = $$('script[type="riot/tag"]'),
-        scriptsAmount = scripts.length;_ProcessVariable_({scripts: scripts,scriptsAmount: scriptsAmount});
+        scriptsAmount = scripts.length;_ProcessVariable_({scripts: scripts,scriptsAmount: scriptsAmount}, __O__);
 
     function done() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       promise.trigger('ready');
@@ -3573,7 +3573,7 @@
     }
 
     function compileTag(src, opts, url) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-      var code = compiler.compile(src, opts, url);_ProcessVariable_({code: code});
+      var code = compiler.compile(src, opts, url);_ProcessVariable_({code: code}, __O__);
 
       globalEval(code, url);
       if (! --scriptsAmount) {
@@ -3587,14 +3587,14 @@
       for (var i = 0; i < scripts.length; ++i) {
         var script = scripts[i],
             opts = extend({ template: getAttribute(script, 'template') }, xopt),
-            url = getAttribute(script, 'src') || getAttribute(script, 'data-src');_ProcessVariable_({script: script,opts: opts,url: url});
+            url = getAttribute(script, 'src') || getAttribute(script, 'data-src');_ProcessVariable_({script: script,opts: opts,url: url}, __O__);
 
         url ? GET(url, compileTag, opts) : compileTag(script.innerHTML, opts);
       }
     }
   }
 
-  var parsers$1 = compiler.parsers;_ProcessVariable_({parsers$1: parsers$1});
+  var parsers$1 = compiler.parsers;_ProcessVariable_({parsers$1: parsers$1}, __O__);
 
   
   function compile$1(arg, fn, opts) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
@@ -3605,7 +3605,7 @@
         fn = false;
       }
       if (/^\s*</m.test(arg)) {
-        var js = compiler.compile(arg, opts);_ProcessVariable_({js: js});
+        var js = compiler.compile(arg, opts);_ProcessVariable_({js: js}, __O__);
         if (fn !== true) {
           globalEval(js);
         }
@@ -3615,17 +3615,17 @@
         return _ProcessReturn_(js, __O__);
       }
       GET(arg, function _anonymous_88(str, opts, url) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-        var js = compiler.compile(str, opts, url);_ProcessVariable_({js: js});
+        var js = compiler.compile(str, opts, url);_ProcessVariable_({js: js}, __O__);
         globalEval(js, url);
         if (fn) {
           fn(js, str, opts);
         }
       }, opts);
     } else if (isArray(arg)) {
-      var i = arg.length;_ProcessVariable_({i: i});
+      var i = arg.length;_ProcessVariable_({i: i}, __O__);
       arg.forEach(function _anonymous_89(str) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
         GET(str, function _anonymous_90(str, opts, url) { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
-          var js = compiler.compile(str, opts, url);_ProcessVariable_({js: js});
+          var js = compiler.compile(str, opts, url);_ProcessVariable_({js: js}, __O__);
           globalEval(js, url);
           i--;
           if (!i && fn) {
@@ -3662,10 +3662,10 @@
 
   function mount$3() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
     var args = [],
-        len = arguments.length;_ProcessVariable_({args: args,len: len});
+        len = arguments.length;_ProcessVariable_({args: args,len: len}, __O__);
     while (len--) args[len] = arguments[len];
 
-    var ret;_ProcessVariable_({ret: ret});
+    var ret;_ProcessVariable_({ret: ret}, __O__);
     compile$1(function _anonymous_92() { ;var __O__ = (this.SAVE ? this : window).SAVE(arguments);
       ret = mount$2.apply(riot$2, args);
     });
@@ -3676,7 +3676,7 @@
     mount: mount$3,
     compile: compile$1,
     parsers: parsers$1
-  });_ProcessVariable_({riot_compiler: riot_compiler});
+  });_ProcessVariable_({riot_compiler: riot_compiler}, __O__);
 
   return _ProcessReturn_(riot_compiler, __O__);
 });
