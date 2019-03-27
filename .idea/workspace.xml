@@ -2,44 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fa07f29-3e31-4081-ae4d-9edcfeb5cb39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/necoo-inject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/necoo-lib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/necoo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riot/necoo-inject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riot/necoo-lib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riot/riot-necoo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riot/riot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/index-config.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/index_inject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/necoo-inject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/necoo-lib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/necoo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue-necoo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/assets/js/pretty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/assets/js/vue-result.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/d3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/fron.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/riot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/originData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/precache-manifest.fe460176bc39c6b0d10100c4de372941.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/pretty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/static/css/main.7bcf466c.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/static/css/main.7bcf466c.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/static/js/1.dceda41d.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/static/js/1.dceda41d.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/static/js/main.acdbaef5.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/static/js/main.acdbaef5.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/static/js/runtime~main.229c360f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/static/js/runtime~main.229c360f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/static/media/logo.5d5d9eef.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riot/treeData.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index1/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index1/js/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index1/js/js1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index1/js/js2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index1/js/js3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index1/js/js4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index1/js/js5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index2/foo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index2/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index2/js/foo-1.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index2/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index3/js/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index3/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index3/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index4/js/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index4/js/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/index4/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requireJs/page/lib/require.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,32 +37,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/riot/riot.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue/index_inject.html">
+        <entry file="file://$PROJECT_DIR$/requireJs/page/index1/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="50" selection-end-column="14" />
+            <state relative-caret-position="585">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/necoo-lib.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/requireJs/page/index2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requireJs/page/index3/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requireJs/page/index3/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requireJs/page/index3/js/1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requireJs/page/index4/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requireJs/page/index4/js/1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requireJs/page/index4/js/a.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requireJs/page/index4/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requireJs/page/index3/js/cart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,20 +144,49 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/vue/index_inject.html" />
+        <option value="$PROJECT_DIR$/requireJs/require.js" />
+        <option value="$PROJECT_DIR$/requireJs/index.js" />
+        <option value="$PROJECT_DIR$/requireJs/js/js3.js" />
+        <option value="$PROJECT_DIR$/requireJs/js/js5.js" />
+        <option value="$PROJECT_DIR$/requireJs/js/js2.js" />
+        <option value="$PROJECT_DIR$/requireJs/js/js1.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index1.html" />
+        <option value="$PROJECT_DIR$/requireJs/page/index1/index1.html" />
+        <option value="$PROJECT_DIR$/requireJs/index.html" />
+        <option value="$PROJECT_DIR$/requireJs/page/index1/js/js4.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index1/index.html" />
+        <option value="$PROJECT_DIR$/requireJs/page/index1/js/js3.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index1/index.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index2/js/foo-1.1.3.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index2/index.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index2/main.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index2/foo.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index2/index.html" />
+        <option value="$PROJECT_DIR$/requireJs/page/index3/index.html" />
+        <option value="$PROJECT_DIR$/requireJs/page/index3/js/cart.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index3/main.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index3/js/1.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index4/main.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index4/js/1.js" />
+        <option value="$PROJECT_DIR$/requireJs/page/index4/js/a.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="322" />
-    <option name="y" value="26" />
+    <option name="x" value="37" />
+    <option name="y" value="23" />
     <option name="width" value="1243" />
     <option name="height" value="712" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,23 +197,58 @@
             <path>
               <item name="lhlybly.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lhlybly.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="requireJs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lhlybly.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lhlybly.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="requireJs" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lhlybly.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lhlybly.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="requireJs" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="index2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lhlybly.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lhlybly.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="requireJs" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="index4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lhlybly.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lhlybly.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="requireJs" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="index4" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/requireJs/page/index1" />
+      <recent name="$PROJECT_DIR$/requireJs/page/js" />
+      <recent name="$PROJECT_DIR$/requireJs/page/lib" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/requireJs/page" />
+      <recent name="$PROJECT_DIR$/requireJs/js" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -151,24 +274,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552837655003</updated>
-      <workItem from="1552837657055" duration="161000" />
+      <workItem from="1552837657055" duration="4233000" />
+      <workItem from="1553602551792" duration="61000" />
+      <workItem from="1553654923369" duration="6430000" />
+      <workItem from="1553685488884" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161000" />
+    <option name="totallyTimeSpent" value="10775000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="322" y="26" width="1243" height="712" extended-state="0" />
-    <editor active="true" />
+    <frame x="37" y="23" width="1243" height="712" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26228142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -176,10 +297,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Json Parser" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,16 +314,661 @@
     <entry file="file://$PROJECT_DIR$/riot/riot.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/necoo-lib.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/index_inject.html">
+    <entry file="file://$PROJECT_DIR$/vue/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/riot/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/necoo-lib.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue-necoo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/riot/riot-necoo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/necoo-inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/lib/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="2065" column="16" selection-start-line="2065" selection-start-column="16" selection-end-line="2065" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#228#299#0" />
+            <element signature="e#376#427#0" />
+            <element signature="e#1263#1329#0" />
+            <element signature="e#1979#2043#0" />
+            <element signature="e#2070#2131#0" />
+            <element signature="e#2137#2272#0" />
+            <element signature="e#2302#2520#0" />
+            <element signature="e#2321#2514#0" />
+            <element signature="e#2390#2504#0" />
+            <element signature="e#2444#2490#0" />
+            <element signature="e#2526#2671#0" />
+            <element signature="e#2708#2931#0" />
+            <element signature="e#2727#2925#0" />
+            <element signature="e#2801#2915#0" />
+            <element signature="e#2855#2901#0" />
+            <element signature="e#2965#3011#0" />
+            <element signature="e#3044#3099#0" />
+            <element signature="e#3105#3290#0" />
+            <element signature="e#3324#3529#0" />
+            <element signature="e#3370#3523#0" />
+            <element signature="e#3408#3513#0" />
+            <element signature="e#3453#3499#0" />
+            <element signature="e#3535#3692#0" />
+            <element signature="e#3752#4449#0" />
+            <element signature="e#3774#4420#0" />
+            <element signature="e#3828#4408#0" />
+            <element signature="e#3883#4394#0" />
+            <element signature="e#4083#4301#0" />
+            <element signature="e#4129#4203#0" />
+            <element signature="e#4307#4376#0" />
+            <element signature="e#4455#4527#0" />
+            <element signature="e#4627#4719#0" />
+            <element signature="e#4656#4712#0" />
+            <element signature="e#4744#4807#0" />
+            <element signature="e#4842#4868#0" />
+            <element signature="e#4984#5177#0" />
+            <element signature="e#5006#5043#0" />
+            <element signature="e#5115#5151#0" />
+            <element signature="e#5545#5787#0" />
+            <element signature="e#5717#5763#0" />
+            <element signature="e#6426#67414#0" />
+            <element signature="e#6537#6921#0" />
+            <element signature="e#6555#6595#0" />
+            <element signature="e#6962#7006#0" />
+            <element signature="e#7364#7832#0" />
+            <element signature="e#7864#8821#0" />
+            <element signature="e#7953#8811#0" />
+            <element signature="e#8020#8105#0" />
+            <element signature="e#8130#8797#0" />
+            <element signature="e#8205#8661#0" />
+            <element signature="e#8231#8275#0" />
+            <element signature="e#8678#8779#0" />
+            <element signature="e#8831#9311#0" />
+            <element signature="e#9365#13665#0" />
+            <element signature="e#9775#11410#0" />
+            <element signature="e#9793#9844#0" />
+            <element signature="e#10000#11163#0" />
+            <element signature="e#10022#10077#0" />
+            <element signature="e#10570#10625#0" />
+            <element signature="e#10894#11004#0" />
+            <element signature="e#11199#11396#0" />
+            <element signature="e#11221#11271#0" />
+            <element signature="e#11516#13459#0" />
+            <element signature="e#11633#13138#0" />
+            <element signature="e#11738#12696#0" />
+            <element signature="e#11764#11820#0" />
+            <element signature="e#11975#12674#0" />
+            <element signature="e#12091#12144#0" />
+            <element signature="e#12228#12648#0" />
+            <element signature="e#12350#12618#0" />
+            <element signature="e#12718#12771#0" />
+            <element signature="e#12993#13120#0" />
+            <element signature="e#13187#13287#0" />
+            <element signature="e#13319#13445#0" />
+            <element signature="e#13473#13519#0" />
+            <element signature="e#13703#14143#0" />
+            <element signature="e#13732#14133#0" />
+            <element signature="e#13788#14117#0" />
+            <element signature="e#13968#14099#0" />
+            <element signature="e#14182#14581#0" />
+            <element signature="e#14315#14571#0" />
+            <element signature="e#14333#14386#0" />
+            <element signature="e#14591#14638#0" />
+            <element signature="e#14768#15051#0" />
+            <element signature="e#14877#15006#0" />
+            <element signature="e#15061#15776#0" />
+            <element signature="e#15855#18661#0" />
+            <element signature="e#16138#16199#0" />
+            <element signature="e#16252#16355#0" />
+            <element signature="e#16493#16630#0" />
+            <element signature="e#16720#17869#0" />
+            <element signature="e#16750#17226#0" />
+            <element signature="e#16816#17099#0" />
+            <element signature="e#16974#17075#0" />
+            <element signature="e#17105#17208#0" />
+            <element signature="e#17232#17855#0" />
+            <element signature="e#17371#17425#0" />
+            <element signature="e#17883#17947#0" />
+            <element signature="e#18248#18650#0" />
+            <element signature="e#18698#18914#0" />
+            <element signature="e#18799#18879#0" />
+            <element signature="e#18954#19476#0" />
+            <element signature="e#19123#19235#0" />
+            <element signature="e#19165#19221#0" />
+            <element signature="e#19241#19466#0" />
+            <element signature="e#19335#19389#0" />
+            <element signature="e#19395#19452#0" />
+            <element signature="e#19517#20241#0" />
+            <element signature="e#19621#19666#0" />
+            <element signature="e#19672#20231#0" />
+            <element signature="e#19714#20125#0" />
+            <element signature="e#19797#20107#0" />
+            <element signature="e#19961#20085#0" />
+            <element signature="e#20160#20217#0" />
+            <element signature="e#20251#20362#0" />
+            <element signature="e#20398#20861#0" />
+            <element signature="e#20515#20851#0" />
+            <element signature="e#20533#20590#0" />
+            <element signature="e#20882#22059#0" />
+            <element signature="e#20922#21128#0" />
+            <element signature="e#20957#21016#0" />
+            <element signature="e#21022#21114#0" />
+            <element signature="e#21168#21513#0" />
+            <element signature="e#21249#21499#0" />
+            <element signature="e#21288#21379#0" />
+            <element signature="e#21385#21481#0" />
+            <element signature="e#21552#22049#0" />
+            <element signature="e#21586#21644#0" />
+            <element signature="e#21650#22035#0" />
+            <element signature="e#21693#22015#0" />
+            <element signature="e#21821#21925#0" />
+            <element signature="e#22097#22240#0" />
+            <element signature="e#22294#23320#0" />
+            <element signature="e#22357#22418#0" />
+            <element signature="e#22424#23310#0" />
+            <element signature="e#22516#23256#0" />
+            <element signature="e#22637#22680#0" />
+            <element signature="e#22922#23238#0" />
+            <element signature="e#22975#23119#0" />
+            <element signature="e#23125#23216#0" />
+            <element signature="e#23353#26842#0" />
+            <element signature="e#23885#23924#0" />
+            <element signature="e#24069#25570#0" />
+            <element signature="e#24247#24294#0" />
+            <element signature="e#24331#24390#0" />
+            <element signature="e#24424#25556#0" />
+            <element signature="e#24446#24496#0" />
+            <element signature="e#24608#24945#0" />
+            <element signature="e#24662#24792#0" />
+            <element signature="e#24798#24923#0" />
+            <element signature="e#24999#25538#0" />
+            <element signature="e#25087#25516#0" />
+            <element signature="e#25117#25159#0" />
+            <element signature="e#25617#25896#0" />
+            <element signature="e#25976#26104#0" />
+            <element signature="e#26024#26088#0" />
+            <element signature="e#26118#26180#0" />
+            <element signature="e#26370#26796#0" />
+            <element signature="e#26388#26447#0" />
+            <element signature="e#26578#26782#0" />
+            <element signature="e#26646#26758#0" />
+            <element signature="e#26876#27326#0" />
+            <element signature="e#27197#27316#0" />
+            <element signature="e#27422#29426#0" />
+            <element signature="e#27482#27541#0" />
+            <element signature="e#27724#27771#0" />
+            <element signature="e#27843#27967#0" />
+            <element signature="e#27996#28298#0" />
+            <element signature="e#28018#28072#0" />
+            <element signature="e#28206#28278#0" />
+            <element signature="e#28316#28360#0" />
+            <element signature="e#28857#28913#0" />
+            <element signature="e#29195#29353#0" />
+            <element signature="e#29217#29255#0" />
+            <element signature="e#29359#29412#0" />
+            <element signature="e#29477#29814#0" />
+            <element signature="e#29495#29544#0" />
+            <element signature="e#29641#29800#0" />
+            <element signature="e#29848#30662#0" />
+            <element signature="e#29884#29931#0" />
+            <element signature="e#30084#30134#0" />
+            <element signature="e#30215#30508#0" />
+            <element signature="e#30267#30340#0" />
+            <element signature="e#30387#30487#0" />
+            <element signature="e#30514#30648#0" />
+            <element signature="e#30695#30943#0" />
+            <element signature="e#30814#30929#0" />
+            <element signature="e#30958#31077#0" />
+            <element signature="e#31163#31210#0" />
+            <element signature="e#31631#35341#0" />
+            <element signature="e#31653#31701#0" />
+            <element signature="e#31994#34846#0" />
+            <element signature="e#32045#34206#0" />
+            <element signature="e#32075#32121#0" />
+            <element signature="e#32619#32909#0" />
+            <element signature="e#32657#32788#0" />
+            <element signature="e#32799#32879#0" />
+            <element signature="e#32915#33038#0" />
+            <element signature="e#33068#33124#0" />
+            <element signature="e#33358#33795#0" />
+            <element signature="e#33464#33564#0" />
+            <element signature="e#33593#33765#0" />
+            <element signature="e#33834#34179#0" />
+            <element signature="e#34212#34337#0" />
+            <element signature="e#34451#34699#0" />
+            <element signature="e#34557#34673#0" />
+            <element signature="e#34868#34922#0" />
+            <element signature="e#35132#35322#0" />
+            <element signature="e#35394#42324#0" />
+            <element signature="e#35598#35648#0" />
+            <element signature="e#35810#42198#0" />
+            <element signature="e#36150#36231#0" />
+            <element signature="e#36255#36304#0" />
+            <element signature="e#36421#38110#0" />
+            <element signature="e#36537#36752#0" />
+            <element signature="e#36613#36718#0" />
+            <element signature="e#36778#36833#0" />
+            <element signature="e#37135#37387#0" />
+            <element signature="e#37220#37355#0" />
+            <element signature="e#37511#38055#0" />
+            <element signature="e#37541#37591#0" />
+            <element signature="e#37762#37977#0" />
+            <element signature="e#37848#37944#0" />
+            <element signature="e#38132#38188#0" />
+            <element signature="e#38303#38463#0" />
+            <element signature="e#38520#38690#0" />
+            <element signature="e#38597#38666#0" />
+            <element signature="e#38753#39363#0" />
+            <element signature="e#38917#38968#0" />
+            <element signature="e#39102#39300#0" />
+            <element signature="e#39184#39274#0" />
+            <element signature="e#39387#39448#0" />
+            <element signature="e#39582#41883#0" />
+            <element signature="e#39608#39630#0" />
+            <element signature="e#39835#39893#0" />
+            <element signature="e#40159#40230#0" />
+            <element signature="e#40256#40316#0" />
+            <element signature="e#40439#40518#0" />
+            <element signature="e#40544#40596#0" />
+            <element signature="e#40798#40900#0" />
+            <element signature="e#40930#41001#0" />
+            <element signature="e#41012#41292#0" />
+            <element signature="e#41338#41416#0" />
+            <element signature="e#41442#41484#0" />
+            <element signature="e#41711#41764#0" />
+            <element signature="e#41907#41969#0" />
+            <element signature="e#42359#44914#0" />
+            <element signature="e#42468#42518#0" />
+            <element signature="e#42854#44456#0" />
+            <element signature="e#42951#43998#0" />
+            <element signature="e#42977#43023#0" />
+            <element signature="e#43446#43573#0" />
+            <element signature="e#43699#43827#0" />
+            <element signature="e#43874#43976#0" />
+            <element signature="e#44097#44155#0" />
+            <element signature="e#44361#44438#0" />
+            <element signature="e#44477#44513#0" />
+            <element signature="e#44619#44826#0" />
+            <element signature="e#44728#44808#0" />
+            <element signature="e#44953#45139#0" />
+            <element signature="e#45026#45095#0" />
+            <element signature="e#45181#45614#0" />
+            <element signature="e#45237#45285#0" />
+            <element signature="e#45326#45600#0" />
+            <element signature="e#45348#45398#0" />
+            <element signature="e#45664#45865#0" />
+            <element signature="e#45754#45855#0" />
+            <element signature="e#45925#46437#0" />
+            <element signature="e#45939#45973#0" />
+            <element signature="e#46120#46345#0" />
+            <element signature="e#46138#46197#0" />
+            <element signature="e#46260#46331#0" />
+            <element signature="e#46351#46427#0" />
+            <element signature="e#46447#46660#0" />
+            <element signature="e#46697#47307#0" />
+            <element signature="e#46711#46778#0" />
+            <element signature="e#47185#47296#0" />
+            <element signature="e#47342#48018#0" />
+            <element signature="e#47584#48008#0" />
+            <element signature="e#47665#47809#0" />
+            <element signature="e#47815#47994#0" />
+            <element signature="e#47837#47894#0" />
+            <element signature="e#48038#67333#0" />
+            <element signature="e#48385#48519#0" />
+            <element signature="e#48558#52723#0" />
+            <element signature="e#48650#48813#0" />
+            <element signature="e#48728#48795#0" />
+            <element signature="e#48831#48890#0" />
+            <element signature="e#48995#49166#0" />
+            <element signature="e#49222#49558#0" />
+            <element signature="e#49260#49465#0" />
+            <element signature="e#49305#49379#0" />
+            <element signature="e#49471#49540#0" />
+            <element signature="e#49637#49956#0" />
+            <element signature="e#49704#49936#0" />
+            <element signature="e#49755#49912#0" />
+            <element signature="e#49801#49886#0" />
+            <element signature="e#50017#50624#0" />
+            <element signature="e#50079#50564#0" />
+            <element signature="e#50175#50315#0" />
+            <element signature="e#50213#50288#0" />
+            <element signature="e#50395#50500#0" />
+            <element signature="e#50708#51741#0" />
+            <element signature="e#50767#51721#0" />
+            <element signature="e#51038#51131#0" />
+            <element signature="e#51157#51203#0" />
+            <element signature="e#51759#51823#0" />
+            <element signature="e#51995#52346#0" />
+            <element signature="e#52017#52069#0" />
+            <element signature="e#52252#52328#0" />
+            <element signature="e#52366#52428#0" />
+            <element signature="e#52623#52709#0" />
+            <element signature="e#52772#53099#0" />
+            <element signature="e#52804#53058#0" />
+            <element signature="e#52871#52961#0" />
+            <element signature="e#53154#59211#0" />
+            <element signature="e#53261#56011#0" />
+            <element signature="e#53398#53479#0" />
+            <element signature="e#53531#55086#0" />
+            <element signature="e#53583#53756#0" />
+            <element signature="e#53782#53832#0" />
+            <element signature="e#54045#54144#0" />
+            <element signature="e#54170#54223#0" />
+            <element signature="e#54336#54444#0" />
+            <element signature="e#54679#55020#0" />
+            <element signature="e#55312#55949#0" />
+            <element signature="e#55338#55384#0" />
+            <element signature="e#55583#55638#0" />
+            <element signature="e#55816#55885#0" />
+            <element signature="e#56049#57646#0" />
+            <element signature="e#56114#56354#0" />
+            <element signature="e#56411#57246#0" />
+            <element signature="e#56692#56740#0" />
+            <element signature="e#56866#57076#0" />
+            <element signature="e#57292#57407#0" />
+            <element signature="e#57455#57628#0" />
+            <element signature="e#57741#59159#0" />
+            <element signature="e#57798#59140#0" />
+            <element signature="e#57824#57874#0" />
+            <element signature="e#58294#58334#0" />
+            <element signature="e#58510#58671#0" />
+            <element signature="e#58559#58645#0" />
+            <element signature="e#58708#59118#0" />
+            <element signature="e#58738#58772#0" />
+            <element signature="e#58951#59044#0" />
+            <element signature="e#59226#59536#0" />
+            <element signature="e#59575#59738#0" />
+            <element signature="e#59657#59724#0" />
+            <element signature="e#59753#60064#0" />
+            <element signature="e#60113#62149#0" />
+            <element signature="e#60342#61077#0" />
+            <element signature="e#60431#60852#0" />
+            <element signature="e#60503#60554#0" />
+            <element signature="e#60730#60792#0" />
+            <element signature="e#60886#61017#0" />
+            <element signature="e#61095#61156#0" />
+            <element signature="e#61359#62103#0" />
+            <element signature="e#61448#61844#0" />
+            <element signature="e#61507#61570#0" />
+            <element signature="e#61576#61822#0" />
+            <element signature="e#61850#62085#0" />
+            <element signature="e#61876#61932#0" />
+            <element signature="e#62164#62538#0" />
+            <element signature="e#62598#65328#0" />
+            <element signature="e#62790#62851#0" />
+            <element signature="e#62943#63032#0" />
+            <element signature="e#63050#63124#0" />
+            <element signature="e#63460#63795#0" />
+            <element signature="e#63482#63545#0" />
+            <element signature="e#63801#65159#0" />
+            <element signature="e#63985#64039#0" />
+            <element signature="e#64211#64813#0" />
+            <element signature="e#64387#64791#0" />
+            <element signature="e#64417#64465#0" />
+            <element signature="e#64580#64671#0" />
+            <element signature="e#65343#65404#0" />
+            <element signature="e#65491#65550#0" />
+            <element signature="e#65565#65836#0" />
+            <element signature="e#65898#65967#0" />
+            <element signature="e#65982#66199#0" />
+            <element signature="e#66241#66964#0" />
+            <element signature="e#66259#66326#0" />
+            <element signature="e#66595#66950#0" />
+            <element signature="e#66617#66681#0" />
+            <element signature="e#66979#67041#0" />
+            <element signature="e#67084#67323#0" />
+            <element signature="e#67180#67309#0" />
+            <element signature="e#68118#69079#0" />
+            <element signature="e#68351#68689#0" />
+            <element signature="e#68454#68631#0" />
+            <element signature="e#68637#68679#0" />
+            <element signature="e#68729#68782#0" />
+            <element signature="e#68855#68943#0" />
+            <element signature="e#68965#69015#0" />
+            <element signature="e#69252#69287#0" />
+            <element signature="e#69581#69615#0" />
+            <element signature="e#69752#69782#0" />
+            <element signature="e#70147#70227#0" />
+            <element signature="e#70245#70597#0" />
+            <element signature="e#70255#70325#0" />
+            <element signature="e#70471#70590#0" />
+            <element signature="e#70620#71047#0" />
+            <element signature="e#70696#70761#0" />
+            <element signature="e#70978#71041#0" />
+            <element signature="e#71053#71257#0" />
+            <element signature="e#71297#71381#0" />
+            <element signature="e#71438#71751#0" />
+            <element signature="e#71758#72101#0" />
+            <element signature="e#72153#76741#0" />
+            <element signature="e#72252#75830#0" />
+            <element signature="e#72517#72579#0" />
+            <element signature="e#73181#73250#0" />
+            <element signature="e#73804#75036#0" />
+            <element signature="e#73822#73866#0" />
+            <element signature="e#74275#74332#0" />
+            <element signature="e#75042#75211#0" />
+            <element signature="e#75253#75321#0" />
+            <element signature="e#75622#75691#0" />
+            <element signature="e#75697#75752#0" />
+            <element signature="e#75853#76735#0" />
+            <element signature="e#75871#76484#0" />
+            <element signature="e#75889#75945#0" />
+            <element signature="e#76495#76725#0" />
+            <element signature="e#76780#77138#0" />
+            <element signature="e#76863#76912#0" />
+            <element signature="e#76963#77096#0" />
+            <element signature="e#77018#77086#0" />
+            <element signature="e#77262#78999#0" />
+            <element signature="e#77393#78991#0" />
+            <element signature="e#77407#77455#0" />
+            <element signature="e#77520#77577#0" />
+            <element signature="e#77591#77655#0" />
+            <element signature="e#77861#78981#0" />
+            <element signature="e#78091#78423#0" />
+            <element signature="e#78113#78165#0" />
+            <element signature="e#78441#78493#0" />
+            <element signature="e#78727#78789#0" />
+            <element signature="e#79377#81817#0" />
+            <element signature="e#79483#79613#0" />
+            <element signature="e#79691#79756#0" />
+            <element signature="e#79766#79831#0" />
+            <element signature="e#79919#80869#0" />
+            <element signature="e#79956#79999#0" />
+            <element signature="e#80159#80859#0" />
+            <element signature="e#80335#80398#0" />
+            <element signature="e#80418#80481#0" />
+            <element signature="e#80879#80948#0" />
+            <element signature="e#80993#81303#0" />
+            <element signature="e#81085#81293#0" />
+            <element signature="e#81114#81201#0" />
+            <element signature="e#81313#81387#0" />
+            <element signature="e#81837#81865#0" />
+            <element signature="e#81873#82139#0" />
+            <element signature="e#82171#82236#0" />
+            <element signature="e#82181#82203#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index1/js/js3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index1/js/js2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index1/js/js1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index1/js/js5.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index1/js/js4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index1/js/app/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index2/js/app/app.js" />
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index2/js/foo-1.1.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index2/foo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index2/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="50" selection-end-column="14" />
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index3/foo.js" />
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index3/index.js" />
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index3/js/foo-1.1.3.js" />
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index1/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index3/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index3/js/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index4/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index4/js/a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index3/js/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requireJs/page/index4/js/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>

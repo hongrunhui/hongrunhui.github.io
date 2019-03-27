@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--这里设置的main.js是异步的，如果在main.js里设置了require.config，但是在下面的index.js执行的时候，main.js还没执行，导致require.config不生效-->
+    <!--需要着重分析一下main.js的下载执行时机，在为啥在index.js之后-->
+    <script data-main="main" src="../lib/require.js"></script>
+</head>
+<body>
+    <div>
+        基本操作
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
